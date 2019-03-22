@@ -1,0 +1,4754 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10 ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+    <head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Cache-Control" content="no-transform"/>
+<meta http-equiv="Cache-Control" content="no-siteapp"/>
+<meta name="applicable-device" content="pc,mobile"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    
+        <meta name="Content-Language" content="en"/>
+    
+        <meta name="browserSupportPage" content="/content/st_com/en/browser-warning.html"/>
+    
+        <meta name="keywords"/>
+    
+        <meta name="description" content="STMicroelectronics - Innovative semiconductor solutions for Smart Driving and IoT (Internet of Things). ST offers one of the industry&#39;s broadest product portfolios."/>
+    
+
+
+    
+    
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/libs/dataTables.min.js"></script>
+
+
+
+
+
+
+<script>
+    function getOptanonCookie(name) {
+        var value = "; " + document.cookie;
+        var parts = value.split("; " + name + "=");
+        if (parts.length == 2)
+            return parts.pop().split(";").shift();
+    }
+    var isClosed = getOptanonCookie("OptanonAlertBoxClosed");
+    var isConsent = getOptanonCookie("OptanonConsent");
+
+    if(isClosed == null){
+        document.cookie = 'OptanonConsent=; Path=/; Expires=Thu, 01 Jan 2000 00:00:01 GMT;';
+    }
+ </script>
+
+
+<!-- OneTrust Cookies Consent Notice start -->
+
+<script src="/etc/clientlibs/st-site/js/custom-event-polyfill.js"></script>
+<script src="/etc/clientlibs/st-site/js/url-search-params-polyfill.js"></script>
+<script src="https://cdn.cookielaw.org/consent/e9f1dc0e-7cbe-4d25-a2a3-a8ebad6c44ad.js" type="text/javascript" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() { }
+</script>
+<script src="/etc/clientlibs/st-site/js/oneTrust.js"></script>
+<!-- OneTrust Cookies Consent Notice end -->
+
+
+<link rel="icon" type="image/png" href="/etc/clientlibs/st-site/media/app/images/favicon.png">
+
+<link rel="canonical" href="https://www.st.com/content/st_com/en.html"/>
+
+<title>Home - STMicroelectronics</title>
+
+    
+        
+            <link rel="alternate" hreflang="en" href="https://www.st.com/content/st_com/en.html"/>
+        
+    
+        
+            <link rel="alternate" hreflang="zh-Hans" href="https://www.st.com/content/st_com/zh.html"/>
+        
+    
+        
+            <link rel="alternate" hreflang="ja" href="https://www.st.com/content/st_com/ja.html"/>
+        
+    
+
+
+	<script type="text/javascript">
+		window.digitalData = {"page":{"pageInfo":{"breadCrumbs":"en","pageShortName":"en","pageName":"en","destinationURL":"https://www.st.com/content/st_com/en.html","isIframe":false,"contentIframe":false,"hierarchie1":"en","hierarchie2":"","sysEnv":"desktop","pageID":"www.st.com:content:st_com:en","server":"www.st.com","urlShortcut":""},"category":{"primaryCategory":"STMicroelectronics Home","type":"Home Page","version":"2019-2-28"},"attributes":{"version":"3.57.0"},"components":{}},"product":[{"productInfo":{"tree":{}}}],"user":[{"profile":[{"profileInfo":{},"attributes":{"loggedIn":false}}]}],"pageInstanceID":"eu:01:prod:publish:en","language":"en"};
+		window.digitalData.page.pageInfo.referringURL = document.referrer;
+		window.digitalData.page.pageInfo.originalURL  = document.location.href;
+		if (window.digitalData.page.category.error) {
+			window.digitalData.page.category.error += document.location.href;
+			var s_errorType = window.digitalData.page.pageInfo.statusCode;
+			var s_originURL = document.location.href;
+		}
+		if(window.digitalData.page.pageInfo.pageName=="error:404"){
+			window.digitalData.page.pageInfo.destinationURL  = document.location.href
+			window.digitalData.page.category.error = "404 Error Page:" + document.location.href;
+			var s_errorType = "404";
+			var s_originURL = document.location.href;
+		}
+	</script>
+
+<script type="text/javascript">
+	/* production setting */
+	var dtmURL = "//assets.adobedtm.com/11dc30a7b133a285a2cd4dec7a727fdd540176b8/satelliteLib-64dcac14fa0827e56e581f0a37f4b24b3448da8a.js"
+
+	/* if Performance Cookies and Tracking Cookies (group 2 and 4) are enabled, load DTM */
+	if(OnetrustActiveGroups && OnetrustActiveGroups.indexOf(",2,")>=0 && OnetrustActiveGroups.indexOf(",4,")>=0) {
+		var dtmScript = document.createElement('script');
+		dtmScript.src = dtmURL;
+		document.write(dtmScript.outerHTML);
+	}
+</script>
+
+
+
+
+
+
+
+
+    
+<link rel="stylesheet" href="/etc/clientlibs/bower.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-site.min.css" type="text/css">
+
+
+
+
+    
+<script type="text/javascript" src="/etc/clientlibs/modernizr.min.js"></script>
+
+
+
+
+    
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/st-app-head.min.js"></script>
+
+
+
+
+
+
+</head>
+
+    <body id="st-site">
+        <div><link rel="stylesheet" href="/etc/clientlibs/st-ccc/widgets/ccc/theme.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/st-admin/widgets/themes.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/lodash/modern.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/personalization/kernel.min.js"></script>
+<script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/default", "\/content\/st_com\/en");
+
+        
+    });
+</script>
+</div>
+
+        
+
+        <div><div class="off-canvas-wrap" data-offcanvas>
+    <div class="inner-wrap">
+        <div id="stmicro" class="home-wrapper">
+            
+
+    
+    <aside class="left-off-canvas-menu hide-for-print">
+        <ul class="off-canvas-list">
+            <li><label>STMicroelectronics</label></li>
+            <li class="has-submenu">
+                
+                
+                    
+                    
+                        <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                            
+                            
+                                Products
+                            
+                        </a>
+                    
+                    
+    <ul class="left-submenu move-right">
+        <li class="back"><a href="#">Back</a></li>
+        <dl>
+            <li class="familytitle">Explore our product portfolio</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/amplifiers-and-comparators.html">Amplifiers and Comparators</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/audio-ics.html">Audio ICs</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/automotive-adas-devices.html">Automotive ADAS Devices</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/automotive-analog-and-power.html">Automotive Analog and Power</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/automotive-infotainment-and-telematics.html">Automotive Infotainment and Telematics</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/automotive-logic-ics.html">Automotive Logic ICs</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/automotive-microcontrollers.html">Automotive Microcontrollers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/clocks-and-timers.html">Clocks and Timers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/data-converters.html">Data Converters</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/digital-set-top-box-ics.html">Digital Set-Top Box ICs</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/diodes-and-rectifiers.html">Diodes and Rectifiers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/emi-filtering-and-signal-conditioning.html">EMI Filtering and Signal Conditioning</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/imaging-and-photonics-solutions.html">Imaging and Photonics Solutions</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/interfaces-and-transceivers.html">Interfaces and Transceivers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/memories.html">Memories</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/mems-and-sensors.html">MEMS and Sensors</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/microcontrollers-microprocessors.html">Microcontrollers &amp; Microprocessors</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/motor-drivers.html">Motor Drivers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/nfc.html">NFC</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/positioning.html">Positioning</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/power-management.html">Power Management</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/power-modules.html">Power Modules</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/power-transistors.html">Power Transistors</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/protection-devices.html">Protection Devices</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/radio-frequency-transistors.html">Radio Frequency Transistors</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/reset-and-supervisor-ics.html">Reset and Supervisor ICs</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/secure-mcus.html">Secure MCUs</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/sic-devices.html">SiC Devices</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/space-products.html">Space Products</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/switches-and-multiplexers.html">Switches and Multiplexers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/thyristors-scr-and-ac-switches.html">Thyristors (SCR) and AC Switches</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/touch-and-display-controllers.html">Touch and Display Controllers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/wireless-transceivers-mcus-and-modules.html">Wireless Transceivers, MCUs and Modules</a>
+                </li>
+                <li class="new-product-title">
+                    <a target="_self" href="/content/st_com/en/new-products.html">
+                        To discover our newest products, please <span class="new-product-link">click here</span>
+                    </a>
+                </li>
+            </dl>
+        </dl>
+    </ul>
+
+                
+
+            </li>
+            
+        
+            
+            <li class="has-submenu">
+                
+                
+                    
+                    
+                        <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                            
+                                Applications
+                            
+                            
+                        </a>
+                    
+                    
+    <ul class="left-submenu move-right">
+        <li class="back"><a href="#">Back</a></li>
+        <dl>
+            <li class="familytitle">Industrial</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/energy-generation-and-distribution.html">Energy Generation and Distribution</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/factory-automation.html">Factory Automation</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/home-and-professional-appliances.html">Home and Professional Appliances</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/home-building-and-city-automation.html">Home, Building and City Automation</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/industrial-drives.html">Industrial Drives</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/industrial-power-and-tools.html">Industrial Power and Tools</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/led-lighting-and-controls.html">LED Lighting and Controls</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/medical-and-healthcare.html">Medical and Healthcare</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/metering.html">Metering</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/motor-control.html">Motor Control</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/point-of-sales-and-retail-logistics.html">Point of Sales and Retail Logistics</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/power-supplies-and-converters.html">Power Supplies and Converters</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/smart-farming.html">Smart Farming</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/space.html">Space</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Automotive</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/adas.html">ADAS</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/body-and-convenience.html">Body and Convenience</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/chassis-and-safety.html">Chassis and Safety</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/electro-mobility.html">Electro-Mobility</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/in-vehicle-infotainment-ivi.html">In-Vehicle Infotainment (IVI)</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/mobility-services.html">Mobility Services</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/powertrain-for-ice.html">Powertrain for ICE</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/telematics-and-networking.html">Telematics and Networking</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Personal Electronics</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/audio-and-video.html">Audio and Video</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/gaming-and-drones.html">Gaming and Drones</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/personal-care-and-hygiene.html">Personal Care and Hygiene</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/smart-phones-tablets-and-ereaders.html">Smart Phones, Tablets and eReaders</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/virtual-augmented-reality.html">Virtual - Augmented Reality</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/wearable.html">Wearable</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Communications Equipment, Computers and Peripherals</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/computers-and-peripherals.html">Computers and Peripherals</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/data-center.html">Data Center</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/soho-servers.html">SOHO Servers</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/telecom-infrastructure.html">Telecom Infrastructure</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">IoT Solutions</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/iot-for-smart-home-and-city.html">IoT for Smart Home and City</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/iot-for-smart-industry.html">IoT for Smart Industry</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/applications/iot-for-smart-things.html">IoT for Smart Things</a>
+                </li>
+                
+            </dl>
+        </dl>
+    </ul>
+
+                
+
+            </li>
+            
+        
+            
+            <li class="has-submenu">
+                
+                
+                    
+                    
+                        <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                            
+                            
+                                Tools &amp; Software
+                            
+                        </a>
+                    
+                    
+    <ul class="left-submenu move-right">
+        <li class="back"><a href="#">Back</a></li>
+        <dl>
+            <li class="familytitle">Evaluation Tools</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/evaluation-tools/product-evaluation-tools.html">Product  Evaluation Tools</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/evaluation-tools/solution-evaluation-tools.html">Solution Evaluation Tools</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Development Tools</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/development-tools/hardware-development-tools.html">Hardware Development Tools</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/development-tools/software-development-tools.html">Software Development Tools</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Calculators, Selectors, Simulators</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/edesign.html">eDesignSuite</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/calculators.html">Calculators</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/products/design-tools/smart-selectors.html">Selectors</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/simulators-and-models.html">Simulators and Models</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Embedded Software</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/embedded-software/mcu-mpu-embedded-software.html">MCU &amp; MPU Embedded Software</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/embedded-software/mems-and-sensors-software.html">MEMS and Sensors Software</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Ecosystems</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/ecosystems/cloud.html">Cloud</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/ecosystems/components-and-modules.html">Components and Modules</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/stm32-graphic-user-interface.html">STM32 Graphic User Interface</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/stm32-ann.html">Neural Network solutions on STM32</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/en/ecosystems/stm32-open-development-environment.html">STM32 Open Development Environment</a>
+                </li>
+                
+            </dl>
+        </dl>
+    </ul>
+
+                
+
+            </li>
+            
+        
+            
+            <li class="has-submenu">
+                
+                
+                    
+                    
+                        <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                            
+                            
+                                Support &amp; Community
+                            
+                        </a>
+                    
+                    
+    <ul class="left-submenu move-right">
+        <li class="back"><a href="#">Back</a></li>
+        <dl>
+            <li class="familytitle">Support</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/contact-us.html">Contacts</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/learning/learning_home.html">Learning</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/quality-and-reliability.html">Quality &amp; Reliability</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/support-home.html">Support Center</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/learning/video-page.html">Video Center</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Our Commitments</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/product-longevity.html">Longevity Commitment</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-priorities/sustainable-technology/sustainable_technology_products.html">Sustainable Technology</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Partners</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/partner/partner-program.html">Partner Program</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Communities</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://community.st.com">Community</a>
+                </li>
+                
+            </dl>
+        </dl>
+    </ul>
+
+                
+
+            </li>
+            
+        
+            
+            <li class="has-submenu">
+                
+                
+                    
+                    
+                        <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                            
+                            
+                                Sample &amp; Buy
+                            
+                        </a>
+                    
+                    
+    <ul class="left-submenu move-right">
+        <li class="back"><a href="#">Back</a></li>
+        <dl>
+            <li class="familytitle">Sample &amp; Buy</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/sample_and_buy/sample-and-buy/buy-from-estore.html">eStore</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/contact-us.html">Contact our Sales Force &amp; Distribution</a>
+                </li>
+                
+            </dl>
+        </dl>
+    </ul>
+
+                
+
+            </li>
+            
+        
+            
+            <li class="has-submenu">
+                
+                
+                    
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/who-we-are.html" target="_self">
+                            
+                            
+                                About ST
+                            
+                        </a>
+                    
+                    
+    <ul class="left-submenu move-right">
+        <li class="back"><a href="#">Back</a></li>
+        <dl>
+            <li class="familytitle">Company Information</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/who-we-are.html">Who We Are</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/st_executive_officers.html">Management</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/code-of-conduct.html">ST Code of Conduct</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://blog.st.com">Blog</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Media Center</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/subscribe.html">Media Subscription</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/media_relations_contact.html">Media Contacts</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/backgrounders.html">Backgrounders</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/press-and-news.html/page=1">Newsroom</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Investor Relations</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/">Investor Relations Home</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/news-releases">Corporate News</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/annual-reports">Annual/Semi-Annual Reports</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/quarterly-results">Quarterly Results</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/upcoming-events">Calendar &amp; Presentations</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/general-meeting-shareholders">General Meeting of Shareholders</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/stock-quote">Stock Information</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/dividend-history">Dividends</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/sec-filings">SEC Filings</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/analyst-coverage">Institutional Coverage</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/contact-ir">Contact Information</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/email-alerts">Email Alerts</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/document-request">Information Request</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/rss-feeds">RSS Feeds</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="https://investors.st.com/highlights">Corporate Governance</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Events</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/events/upcoming-events-and-technical-seminars.html">Upcoming Events &amp; Technical Seminars</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Innovation &amp; Technology</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/innovation---technology.html">Innovation &amp; Technology</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/artificial-intelligence.html">Artificial Intelligence</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/BCD.html">BCD</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/VIPower.html">VIPower</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/SiC.html">SiC</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/GaN.html">GaN</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/BiCMOS.html">BiCMOS</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/FD-SOI.html">FD-SOI</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/H9SOIFEM.html">RF-SOI</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/PCM.html">PCM</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/mems.html">MEMS</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/imaging.html">Imaging Premium Foundry</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Sustainability</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/st_approach_to_sustainability.html">ST Approach to Sustainability</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-priorities.html">Sustainability Priorities</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-reports.html">Sustainability Reports</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Customer Satisfaction</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/customer-satisfaction/customer-satisfaction.html">Commitment to Customer Satisfaction</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/customer-satisfaction/five-areas-of-excellence.html">Five Areas of Excellence</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/customer-satisfaction/customer-satisfaction-measurement.html">Customer Satisfaction Measurement</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Careers at ST</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/careers.html">Job Search</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/intern_thesis.html">Internships &amp; Thesis</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/your_career.html">Your Career at ST</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/st-locations.html">ST Locations</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/this_is_st.html">Our Mission &amp; Vision</a>
+                </li>
+                
+            
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/our_culture_values.html">Our Culture &amp; Values</a>
+                </li>
+                
+            </dl>
+        
+            <li class="familytitle">Procurement</li>
+            <dl>
+                <li>
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/procurement/general-terms-and-conditions.html">General terms and conditions</a>
+                </li>
+                
+            </dl>
+        </dl>
+    </ul>
+
+                
+
+            </li>
+            
+        
+            
+            
+            <li>
+                <a x-cq-linkchecker="skip" href="/content/st_com/en/contact-us.html" target="_self">
+                    Contacts
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+
+
+
+
+    
+
+
+<div id="header" class="clear-padding-bottom">
+    <div class="row">
+        <div class="large-2 column large-text-left medium-text-center small-text-center">
+            <a href="/content/st_com/en.html" x-cq-linkchecker="skip">
+    <img src="/etc/clientlibs/st-site/media/app/images/stlogo.png" alt="STMicro">
+</a>
+            <div class="show-for-large-up hide-for-print">
+                
+    
+    <ul id="sample-menu-3" class="sf-menu sf-vertical home-menu">
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                        
+                        
+                            Products
+                        
+                    </a>
+                
+                
+    <ul>
+        
+        <li>
+            <div class="row">
+                <div class="column large-12">
+                    
+                        <a href="#" class="right"><i class="fa fa-times"></i></a>
+                    
+                    
+                    
+                        <p class="text-info"><strong>Explore our product portfolio</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/amplifiers-and-comparators.html" target="_self">
+                            Amplifiers and Comparators</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/audio-ics.html" target="_self">
+                            Audio ICs</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/automotive-adas-devices.html" target="_self">
+                            Automotive ADAS Devices</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/automotive-analog-and-power.html" target="_self">
+                            Automotive Analog and Power</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/automotive-infotainment-and-telematics.html" target="_self">
+                            Automotive Infotainment and Telematics</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/automotive-logic-ics.html" target="_self">
+                            Automotive Logic ICs</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/automotive-microcontrollers.html" target="_self">
+                            Automotive Microcontrollers</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/clocks-and-timers.html" target="_self">
+                            Clocks and Timers</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/data-converters.html" target="_self">
+                            Data Converters</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/digital-set-top-box-ics.html" target="_self">
+                            Digital Set-Top Box ICs</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/diodes-and-rectifiers.html" target="_self">
+                            Diodes and Rectifiers</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/emi-filtering-and-signal-conditioning.html" target="_self">
+                            EMI Filtering and Signal Conditioning</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/imaging-and-photonics-solutions.html" target="_self">
+                            Imaging and Photonics Solutions</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/interfaces-and-transceivers.html" target="_self">
+                            Interfaces and Transceivers</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/memories.html" target="_self">
+                            Memories</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/mems-and-sensors.html" target="_self">
+                            MEMS and Sensors</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/microcontrollers-microprocessors.html" target="_self">
+                            Microcontrollers &amp; Microprocessors</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/motor-drivers.html" target="_self">
+                            Motor Drivers</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/nfc.html" target="_self">
+                            NFC</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/positioning.html" target="_self">
+                            Positioning</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/power-management.html" target="_self">
+                            Power Management</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/power-modules.html" target="_self">
+                            Power Modules</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/power-transistors.html" target="_self">
+                            Power Transistors</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/protection-devices.html" target="_self">
+                            Protection Devices</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/radio-frequency-transistors.html" target="_self">
+                            Radio Frequency Transistors</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/reset-and-supervisor-ics.html" target="_self">
+                            Reset and Supervisor ICs</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/secure-mcus.html" target="_self">
+                            Secure MCUs</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/sic-devices.html" target="_self">
+                            SiC Devices</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/space-products.html" target="_self">
+                            Space Products</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/switches-and-multiplexers.html" target="_self">
+                            Switches and Multiplexers</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/thyristors-scr-and-ac-switches.html" target="_self">
+                            Thyristors (SCR) and AC Switches</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/touch-and-display-controllers.html" target="_self">
+                            Touch and Display Controllers</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/wireless-transceivers-mcus-and-modules.html" target="_self">
+                            Wireless Transceivers, MCUs and Modules</a>
+                        <br/>
+                    
+                    
+                        <br>
+                        <br>
+                        <a target="_self" href="/content/st_com/en/new-products.html" style="cursor: default"> To discover our newest products, please
+                            <span class="new-product-link" style="cursor: pointer">click here</span></a>
+                        <br>
+                    
+                </div>
+            </div>
+            <br/>
+        </li>
+    </ul>
+
+            
+
+        </li>
+    
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                        
+                            Applications
+                        
+                        
+                    </a>
+                
+                
+    <ul>
+        
+        
+        <li>
+            <div class="row">
+                <div class="column large-12">
+                    
+                        <a href="#" class="right"><i class="fa fa-times"></i></a>
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/content/st_com/en/applications-landing-pages/industrial.html" target="_self"><strong>Industrial</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/energy-generation-and-distribution.html" target="_self">
+                            Energy Generation and Distribution</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/factory-automation.html" target="_self">
+                            Factory Automation</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/home-and-professional-appliances.html" target="_self">
+                            Home and Professional Appliances</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/home-building-and-city-automation.html" target="_self">
+                            Home, Building and City Automation</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/industrial-drives.html" target="_self">
+                            Industrial Drives</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/industrial-power-and-tools.html" target="_self">
+                            Industrial Power and Tools</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/led-lighting-and-controls.html" target="_self">
+                            LED Lighting and Controls</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/medical-and-healthcare.html" target="_self">
+                            Medical and Healthcare</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/metering.html" target="_self">
+                            Metering</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/motor-control.html" target="_self">
+                            Motor Control</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/point-of-sales-and-retail-logistics.html" target="_self">
+                            Point of Sales and Retail Logistics</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/power-supplies-and-converters.html" target="_self">
+                            Power Supplies and Converters</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/smart-farming.html" target="_self">
+                            Smart Farming</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/space.html" target="_self">
+                            Space</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/content/st_com/en/applications-landing-pages/automotive.html" target="_self"><strong>Automotive</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/adas.html" target="_self">
+                            ADAS</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/body-and-convenience.html" target="_self">
+                            Body and Convenience</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/chassis-and-safety.html" target="_self">
+                            Chassis and Safety</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/electro-mobility.html" target="_self">
+                            Electro-Mobility</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/in-vehicle-infotainment-ivi.html" target="_self">
+                            In-Vehicle Infotainment (IVI)</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/mobility-services.html" target="_self">
+                            Mobility Services</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/powertrain-for-ice.html" target="_self">
+                            Powertrain for ICE</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/telematics-and-networking.html" target="_self">
+                            Telematics and Networking</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/content/st_com/en/applications-landing-pages/personal-electronics.html" target="_self"><strong>Personal Electronics</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/audio-and-video.html" target="_self">
+                            Audio and Video</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/gaming-and-drones.html" target="_self">
+                            Gaming and Drones</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/personal-care-and-hygiene.html" target="_self">
+                            Personal Care and Hygiene</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/smart-phones-tablets-and-ereaders.html" target="_self">
+                            Smart Phones, Tablets and eReaders</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/virtual-augmented-reality.html" target="_self">
+                            Virtual - Augmented Reality</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/wearable.html" target="_self">
+                            Wearable</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/content/st_com/en/applications-landing-pages/cecp.html" target="_self"><strong>Communications Equipment, Computers and Peripherals</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/computers-and-peripherals.html" target="_self">
+                            Computers and Peripherals</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/data-center.html" target="_self">
+                            Data Center</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/soho-servers.html" target="_self">
+                            SOHO Servers</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/telecom-infrastructure.html" target="_self">
+                            Telecom Infrastructure</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/content/st_com/en/applications-landing-pages/iot-solutions.html" target="_self"><strong>IoT Solutions</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/iot-for-smart-home-and-city.html" target="_self">
+                            IoT for Smart Home and City</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/iot-for-smart-industry.html" target="_self">
+                            IoT for Smart Industry</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/applications/iot-for-smart-things.html" target="_self">
+                            IoT for Smart Things</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        </li>
+    </ul>
+
+            
+
+        </li>
+    
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                        
+                        
+                            Tools &amp; Software
+                        
+                    </a>
+                
+                
+    <ul>
+        
+        
+        <li>
+            <div class="row">
+                <div class="column large-12">
+                    
+                        <a href="#" class="right"><i class="fa fa-times"></i></a>
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/en/evaluation-tools.html" target="_self"><strong>Evaluation Tools</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/evaluation-tools/product-evaluation-tools.html" target="_self">
+                            Product  Evaluation Tools</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/evaluation-tools/solution-evaluation-tools.html" target="_self">
+                            Solution Evaluation Tools</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/en/development-tools.html" target="_self"><strong>Development Tools</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/development-tools/hardware-development-tools.html" target="_self">
+                            Hardware Development Tools</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/development-tools/software-development-tools.html" target="_self">
+                            Software Development Tools</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="#" target="_self"><strong>Calculators, Selectors, Simulators</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/edesign.html" target="_self">
+                            eDesignSuite</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/calculators.html" target="_self">
+                            Calculators</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/products/design-tools/smart-selectors.html" target="_self">
+                            Selectors</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/simulators-and-models.html" target="_self">
+                            Simulators and Models</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/en/embedded-software.html" target="_self"><strong>Embedded Software</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/embedded-software/mcu-mpu-embedded-software.html" target="_self">
+                            MCU &amp; MPU Embedded Software</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/embedded-software/mems-and-sensors-software.html" target="_self">
+                            MEMS and Sensors Software</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                        <p class="text-info"><a x-cq-linkchecker="skip" href="/en/ecosystems.html" target="_self"><strong>Ecosystems</strong></a></p>
+                    
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/en/ecosystems/cloud.html" target="_self">
+                            Cloud</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/ecosystems/components-and-modules.html" target="_self">
+                            Components and Modules</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/stm32-graphic-user-interface.html" target="_self">
+                            STM32 Graphic User Interface</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/stm32-ann.html" target="_self">
+                            Neural Network solutions on STM32</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/en/ecosystems/stm32-open-development-environment.html" target="_self">
+                            STM32 Open Development Environment</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        </li>
+    </ul>
+
+            
+
+        </li>
+    
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                        
+                        
+                            Support &amp; Community
+                        
+                    </a>
+                
+                
+    <ul>
+        
+        <li>
+            <div class="row">
+                <div class="column large-12">
+                    
+                        <a href="#" class="right"><i class="fa fa-times"></i></a>
+                    
+                    
+                    
+                        <p class="text-info"><strong>Support</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/contact-us.html" target="_self">
+                            Contacts</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/learning/learning_home.html" target="_self">
+                            Learning</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/quality-and-reliability.html" target="_self">
+                            Quality &amp; Reliability</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/support-home.html" target="_self">
+                            Support Center</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/learning/video-page.html" target="_self">
+                            Video Center</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Our Commitments</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/support/resources/product-longevity.html" target="_self">
+                            Longevity Commitment</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-priorities/sustainable-technology/sustainable_technology_products.html" target="_self">
+                            Sustainable Technology</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Partners</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/partner/partner-program.html" target="_self">
+                            Partner Program</a>
+                        <br/>
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Communities</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="https://community.st.com" target="_self">
+                            Community</a>
+                        <br/>
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        </li>
+    </ul>
+
+            
+
+        </li>
+    
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="#.html" target="_self">
+                        
+                        
+                            Sample &amp; Buy
+                        
+                    </a>
+                
+                
+    <ul>
+        
+        <li>
+            <div class="row">
+                <div class="column large-12">
+                    
+                        <a href="#" class="right"><i class="fa fa-times"></i></a>
+                    
+                    
+                    
+                        <p class="text-info"><strong>Sample &amp; Buy</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/sample_and_buy/sample-and-buy/buy-from-estore.html" target="_self">
+                            eStore</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/contact-us.html" target="_self">
+                            Contact our Sales Force &amp; Distribution</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        </li>
+    </ul>
+
+            
+
+        </li>
+    
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/who-we-are.html" target="_self">
+                        
+                        
+                            About ST
+                        
+                    </a>
+                
+                
+    <ul>
+        
+        <li>
+            <div class="row">
+                <div class="column large-12">
+                    
+                        <a href="#" class="right"><i class="fa fa-times"></i></a>
+                    
+                    
+                    
+                        <p class="text-info"><strong>Company Information</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/who-we-are.html" target="_self">
+                            Who We Are</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/st_executive_officers.html" target="_self">
+                            Management</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_company_information/code-of-conduct.html" target="_self">
+                            ST Code of Conduct</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://blog.st.com" target="_self">
+                            Blog</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Media Center</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/subscribe.html" target="_self">
+                            Media Subscription</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/media_relations_contact.html" target="_self">
+                            Media Contacts</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/backgrounders.html" target="_self">
+                            Backgrounders</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/media-center/press-and-news.html/page=1" target="_self">
+                            Newsroom</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Investor Relations</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/" target="_self">
+                            Investor Relations Home</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/news-releases" target="_self">
+                            Corporate News</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/annual-reports" target="_self">
+                            Annual/Semi-Annual Reports</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/quarterly-results" target="_self">
+                            Quarterly Results</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/upcoming-events" target="_self">
+                            Calendar &amp; Presentations</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/general-meeting-shareholders" target="_self">
+                            General Meeting of Shareholders</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/stock-quote" target="_self">
+                            Stock Information</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/dividend-history" target="_self">
+                            Dividends</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/sec-filings" target="_self">
+                            SEC Filings</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/analyst-coverage" target="_self">
+                            Institutional Coverage</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/contact-ir" target="_self">
+                            Contact Information</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/email-alerts" target="_self">
+                            Email Alerts</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/document-request" target="_self">
+                            Information Request</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/rss-feeds" target="_self">
+                            RSS Feeds</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="https://investors.st.com/highlights" target="_self">
+                            Corporate Governance</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Events</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/events/upcoming-events-and-technical-seminars.html" target="_self">
+                            Upcoming Events &amp; Technical Seminars</a>
+                        <br/>
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Innovation &amp; Technology</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/innovation---technology.html" target="_self">
+                            Innovation &amp; Technology</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/artificial-intelligence.html" target="_self">
+                            Artificial Intelligence</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/BCD.html" target="_self">
+                            BCD</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/VIPower.html" target="_self">
+                            VIPower</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/SiC.html" target="_self">
+                            SiC</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/GaN.html" target="_self">
+                            GaN</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/BiCMOS.html" target="_self">
+                            BiCMOS</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/FD-SOI.html" target="_self">
+                            FD-SOI</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/H9SOIFEM.html" target="_self">
+                            RF-SOI</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/PCM.html" target="_self">
+                            PCM</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/mems.html" target="_self">
+                            MEMS</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/innovation---technology/imaging.html" target="_self">
+                            Imaging Premium Foundry</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Sustainability</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/st_approach_to_sustainability.html" target="_self">
+                            ST Approach to Sustainability</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-priorities.html" target="_self">
+                            Sustainability Priorities</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-reports.html" target="_self">
+                            Sustainability Reports</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Customer Satisfaction</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/customer-satisfaction/customer-satisfaction.html" target="_self">
+                            Commitment to Customer Satisfaction</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/customer-satisfaction/five-areas-of-excellence.html" target="_self">
+                            Five Areas of Excellence</a>
+                        <br/>
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/customer-satisfaction/customer-satisfaction-measurement.html" target="_self">
+                            Customer Satisfaction Measurement</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Careers at ST</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/careers.html" target="_self">
+                            Job Search</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/intern_thesis.html" target="_self">
+                            Internships &amp; Thesis</a>
+                        <br/>
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/your_career.html" target="_self">
+                            Your Career at ST</a>
+                        <br/>
+                    
+                
+                    
+                
+                    
+                
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/st-locations.html" target="_self">
+                            ST Locations</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/this_is_st.html" target="_self">
+                            Our Mission &amp; Vision</a>
+                        <br/>
+                    
+                    
+                
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/careers/our_culture_values.html" target="_self">
+                            Our Culture &amp; Values</a>
+                        <br/>
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        
+            <div class="row">
+                <div class="column large-12">
+                    
+                    
+                    
+                        <p class="text-info"><strong>Procurement</strong></p>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column large-6">
+                    
+                        <a x-cq-linkchecker="skip" href="/content/st_com/en/about/procurement/general-terms-and-conditions.html" target="_self">
+                            General terms and conditions</a>
+                        <br/>
+                    
+                </div>
+                <div class="column large-6">
+                    
+                    
+                </div>
+            </div>
+            <br/>
+        </li>
+    </ul>
+
+            
+
+        </li>
+    
+        <li>
+            
+            
+                
+                
+                    <a x-cq-linkchecker="skip" href="/content/st_com/en/contact-us.html" target="_self">
+                        
+                        
+                            Contacts
+                        
+                    </a>
+                
+                
+    
+
+            
+
+        </li>
+    </ul>
+
+            </div>
+        </div>
+
+        
+
+        <div class="large-9 column hide-for-print">
+            <div class="row">
+                
+    
+    
+<link rel="stylesheet" href="/etc/clientlibs/granite/jquery-ui.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/designs/st-search/search.min.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/foundation/jquery-ui/themes/default.min.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/stangularjs.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/bookmarks.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/searchHistory.min.js"></script>
+<script type="text/javascript" src="/etc/designs/st-search/search.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/stcrossreference.min.js"></script>
+
+
+
+
+
+
+<script>
+if (typeof inheritedSearchLanguage == 'undefined') {
+	var inheritedSearchLanguage = "en"
+}
+
+if (typeof searchBasePath == 'undefined') {
+	var searchBasePath = "\/content\/st_com\/";
+}
+</script>
+
+<div class="large-12 medium-12 columns show-for-large-up top-nav-right-container">
+    <div class="large-6 medium-12 small-12 columns large-offset-6 form-search-desktop-container">
+        <form id="form-search" action="/content/st_com/en/search.html" method="GET" onsubmit="return flexiReload(getSearchInputVal(this), getCategoryFromSearchWidget(), true, undefined, undefined, 1)">
+
+            <div class="row collapse">
+                <div class="large-1 medium-1 small-1  columns">
+                    <a href="#" data-dropdown="drop1" aria-controls="drop1" aria-expanded="true" class="button dropdown prefix text-muted search-bar"><i class="fa fa-angle-down"></i></a>
+                    <ul id="drop1" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1" style="position: absolute; left: -99999px; top: 37px;">
+                        <li>
+                            <p>FILTER YOUR SEARCH</p>
+                            <input id="products" name="filter-search" type="radio" value="products" checked><label for="products">Products</label>
+                            <br>
+                            <input id="tools" name="filter-search" type="radio" value="tools"><label for="tools">Tools &amp; Software</label>
+                            <br>
+                            <input id="resources" name="filter-search" type="radio" value="resources"><label for="resources">Resources</label>
+                            <br>
+                            <input id="videos" name="filter-search" type="radio" value="videos"><label for="videos">Videos</label>
+                            <br>
+							<input id="solutions" name="filter-search" type="radio" value="solutions"><label for="solutions">Solutions</label>
+                            <br>
+                            <input id="applications" name="filter-search" type="radio" value="applications"><label for="applications">Applications</label>
+                            <br>
+                            
+                            <input id="x-referencee" name="filter-search" type="radio" value="x-reference"><label for="x-referencee">X-Reference</label>
+                            <br>
+                            <input id="keywords" name="filter-search" type="radio" value="keywords"><label for="keywords">All site</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="small-9 columns">
+                    <input type="search" id="widgetSearchBar" placeholder="Search" class="search-bar searchKey_JS searchKeyWidget_JS no-placeholder" name="widgetSearchBar">
+                    <input type="hidden" name="widgetSearchAction" value="1">
+                    <input type="hidden" name="_charset_" value="UTF-8"/>
+                </div>
+                <div class="small-2 columns">
+                    <button type="submit" class="button postfix text-muted search-bar"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+		<span id="screenTypeSearchDesktop" class="show-for-large-up screenType_JS"></span>
+		<span id="screenTypeSearchTablet" class="show-for-medium-only screenType_JS"></span>
+		<span id="screenTypeSearchMobile" class="show-for-small-only screenType_JS"></span>
+
+<div class="form-search-desktop-container form-mobile-devices medium-12 small-12 show-for-medium-down columns">
+    <form id="form-search-desktop" action="/content/st_com/en/search.html" method="GET" onsubmit="return flexiReload(getSearchInputVal(this), getCategoryFromSearchWidget(), true, undefined, undefined, 1)">
+        <div class="row collapse">
+            <div class="large-1 medium-1 small-1  columns">
+                <a href="#" data-dropdown="drop2" aria-controls="drop2" aria-expanded="true" class="button dropdown prefix text-muted search-bar"><i class="fa fa-angle-down"></i></a>
+                <ul id="drop2" data-dropdown-content class="f-dropdown" aria-hidden="true" tabindex="-1" style="position: absolute; left: -99999px; top: 37px;">
+                    <li>
+                        <p>FILTER YOUR SEARCH</p>
+                        <input id="mproducts" name="filter-search" type="radio" value="products" checked><label for="mproducts">Products</label>
+                        <br>
+                        <input id="mtools" name="filter-search" type="radio" value="tools"><label for="mtools">Tools &amp; Software</label>
+                        <br>
+                        <input id="mresources" name="filter-search" type="radio" value="resources"><label for="mresources">Resources</label>
+                        <br>
+                        <input id="mvideos" name="filter-search" type="radio" value="videos"><label for="mvideos">Videos</label>
+                        <br>
+						<input id="msolutions" name="filter-search" type="radio" value="solutions"><label for="msolutions">Solutions</label>
+                        <br>
+                        <input id="mapplications" name="filter-search" type="radio" value="applications"><label for="mapplications">Applications</label>
+                        <br>
+                        
+                        <input id="mx-reference" name="filter-search" type="radio" value="x-reference"><label for="mx-reference">X-Reference</label>
+                        <br>
+                        
+                        <input id="mkeywords" name="filter-search" type="radio" value="keywords"><label for="mkeywords">All site</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="small-9 columns">
+                <input type="search" id="widgetSearchBarMobile" placeholder="Search" class="search-bar searchKey_JS searchKeyWidget_JS" name="widgetSearchBar">
+	            <input type="hidden" name="widgetSearchAction" value="1">
+	            <input type="hidden" name="_charset_" value="UTF-8"/>
+            </div>
+            <div class="small-2 columns">
+                <button type="submit" class="button postfix text-muted search-bar"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+<script>
+	var screenSearchTypeDetected = getSearchScreenType();
+
+    if (screenSearchTypeDetected == 'mobile') {
+		var searchWidgetProductNoConfig = getSearchConfig("3", "3");
+		var searchWidgetKeywordsNoConfig = getSearchConfig("3", "3");
+	} else if (screenSearchTypeDetected == 'tablet') {
+		var searchWidgetProductNoConfig = getSearchConfig("5", "5");
+		var searchWidgetKeywordsNoConfig = getSearchConfig("5", "5");
+    } else {
+		var searchWidgetProductNoConfig = getSearchConfig("5", "3");
+		var searchWidgetKeywordsNoConfig = getSearchConfig("5", "5");
+    }
+</script>
+
+                
+    <div class="show-for-medium-down top-nav-right-container columns">
+        <ul class="top-nav-right small-block-grid-4">
+            <li>
+                
+    
+    
+        
+            <a href="https://my.st.com/content/my_st_com/en.html" class="ui-link icon-myst"></a>
+        
+        
+    
+
+            </li>
+            <li>
+                <a data-dropdown="langmenusmall" aria-controls="langmenusmall" aria-expanded="false" href="#" class="ui-link icon-language"></a>
+                <ul id="langmenusmall" class="f-dropdown mobile-choice-list" data-dropdown-content aria-hidden="true" tabindex="-1">
+                    <li><a href="/content/st_com/en.html">English <i class="fa fa-check"></i></a></li>
+                
+                    <li><a href="/content/st_com/zh.html">中文 </a></li>
+                
+                    <li><a href="/content/st_com/ja.html">日本語 </a></li>
+                </ul>
+            </li>
+            <li><a href="/content/st_com/en/product-selector-welcome2.html" class="ui-link icon-parametric"></a></li>
+            <li><a href="#" class="left-off-canvas-toggle menu-icon text-center" aria-expanded="false"><i class="fa fa-align-justify fa-lg"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="large-12 medium-12 columns show-for-large-up top-nav-right-container">
+        
+    
+
+        <div class="large-12 medium-12 small-12 columns navsearch-padding">
+            <ul class="top-nav-right">
+                <li>
+                    
+    
+    
+        
+        
+            <a href="https://my.st.com/content/my_st_com/en.html" class="ui-link">
+                <i class="fa fa-user fa-lg"></i>
+                Login
+            </a>
+        
+    
+
+                </li>
+                <li>
+                    <a x-cq-linkchecker="skip" data-dropdown="langmenu" aria-controls="langmenu" aria-expanded="false" href="#" class="ui-link">
+                        <i class="fa fa-globe fa-lg"></i>
+                        English
+                    </a>
+                    <ul id="langmenu" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+                        <li><a x-cq-linkchecker="skip" href="/content/st_com/en.html">English</a></li>
+                    
+                        <li><a x-cq-linkchecker="skip" href="/content/st_com/zh.html">中文</a></li>
+                    
+                        <li><a x-cq-linkchecker="skip" href="/content/st_com/ja.html">日本語</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/content/st_com/en/product-selector-welcome2.html" class="ui-link">
+                        <i class="fa fa-sliders fa-lg"></i>
+                        Product Catalog
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+<script>
+    (function (history) {
+        var replaceState = history.replaceState;
+        history.replaceState = function (state) {
+            if (typeof history.onreplacestate == "function") {
+                history.onreplacestate({state: state});
+            }
+            return replaceState.apply(history, arguments);
+        }
+    })(window.history);
+
+    window.onpopstate = history.onreplacestate = function (e) {
+        if (window.location.pathname.indexOf("/search.html") > -1 && e.state) {
+            var q = e.state.q;
+            var t = e.state.t;
+            var page = e.state.page;
+            var hash = "#q=" + q + "-t=" + t + "-page=" + page;
+            updateHrefs(hash);
+        }
+    };
+
+    $(document).ready(function () {
+        if (window.location.pathname.indexOf("/search.html") > -1) {
+            var hash = window.location.hash;
+            if (hash) {
+                updateHrefs(hash);
+            }
+        }
+    });
+
+    function updateHrefs(hash) {
+        $('#langmenu').find("a").each(function () {
+            this.href = this.pathname + hash;
+        });
+        $('#langmenusmall').find("a").each(function () {
+            this.href = this.pathname + hash;
+        });
+    }
+</script>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+            
+            <div class="home-page-banner">
+    <div class="common-slider loading" data-slider-color="grey" data-slickjs-autoplay="true" data-slickjs-autoplayspeed="5000" data-slickjs-speed="1000">
+        <div>
+            <div class="companion-text hide">
+                <a href="#">
+                    <strong>New 650 V soft-switching IH series</strong><br/>
+                    <small>higher efficiency for induction heating</small>
+                </a>
+            </div>
+            <a href="/content/st_com/en/products/power-transistors/igbts/600-650v-igbts/650v-ih-series-soft-switching-20-to-60-khz.html?icmp=tt10551_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-medium-up show-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/b7/76/13/89/ab/76/4b/9f/HPBN_650-V-IGBT-IH-series_EN/files/HPBN_650-V-IGBT-IH-series_EN.jpg/_jcr_content/translations/en.HPBN_650-V-IGBT-IH-series_EN.jpg" alt="higher efficiency for induction heating" title="New 650 V soft-switching IH series">
+            </a>
+            <a href="/content/st_com/en/products/power-transistors/igbts/600-650v-igbts/650v-ih-series-soft-switching-20-to-60-khz.html?icmp=tt10551_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-small-only hide-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/b7/76/13/89/ab/76/4b/9f/HPBN_650-V-IGBT-IH-series_EN/files/HPBN_650-V-IGBT-IH-series_EN.jpg/_jcr_content/translations/en.HPBN_650-V-IGBT-IH-series_EN.jpg" alt="higher efficiency for induction heating" title="New 650 V soft-switching IH series">
+            </a>
+        </div>
+    
+        <div>
+            <div class="companion-text hide">
+                <a href="#">
+                    <strong>3kW PFC and isolated DC-DC</strong><br/>
+                    <small>digital SMPS solutions</small>
+                </a>
+            </div>
+            <a href="/content/st_com/en/campaigns/3kw-pfc-and-isolated-dc-dc-digital-smps-solutions.html?icmp=tt8191_gl_bn_sep2018" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-medium-up show-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group1/30/33/a2/5a/75/ab/45/6f/HPBN_DIGITAL_SMPS_EP_EN/files/HPBN_DIGITAL_SMPS_EP_EN.jpg/_jcr_content/translations/en.HPBN_DIGITAL_SMPS_EP_EN.jpg" alt="digital SMPS solutions" title="3kW PFC and isolated DC-DC">
+            </a>
+            <a href="/content/st_com/en/campaigns/3kw-pfc-and-isolated-dc-dc-digital-smps-solutions.html?icmp=tt8191_gl_bn_sep2018" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-small-only hide-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group1/30/33/a2/5a/75/ab/45/6f/HPBN_DIGITAL_SMPS_EP_EN/files/HPBN_DIGITAL_SMPS_EP_EN.jpg/_jcr_content/translations/en.HPBN_DIGITAL_SMPS_EP_EN.jpg" alt="digital SMPS solutions" title="3kW PFC and isolated DC-DC">
+            </a>
+        </div>
+    
+        <div>
+            <div class="companion-text hide">
+                <a href="#">
+                    <strong>Dual-core STM32WB Wireless MCU</strong><br/>
+                    <small>with RF-enhanced STM32 development ecosystem</small>
+                </a>
+            </div>
+            <a href="/content/st_com/en/products/evaluation-tools/product-evaluation-tools/stm32-nucleo-expansion-boards/p-nucleo-wb55.html?icmp=tt10592_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-medium-up show-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/41/c4/1a/81/38/6f/47/ef/HPBN_STM32WB_EN/files/HPBN_STM32WB_EN.jpg/_jcr_content/translations/en.HPBN_STM32WB_EN.jpg" alt="with RF-enhanced STM32 development ecosystem" title="Dual-core STM32WB Wireless MCU">
+            </a>
+            <a href="/content/st_com/en/products/evaluation-tools/product-evaluation-tools/stm32-nucleo-expansion-boards/p-nucleo-wb55.html?icmp=tt10592_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-small-only hide-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/41/c4/1a/81/38/6f/47/ef/HPBN_STM32WB_EN/files/HPBN_STM32WB_EN.jpg/_jcr_content/translations/en.HPBN_STM32WB_EN.jpg" alt="with RF-enhanced STM32 development ecosystem" title="Dual-core STM32WB Wireless MCU">
+            </a>
+        </div>
+    
+        <div>
+            <div class="companion-text hide">
+                <a href="#">
+                    <strong>Extra-robust barometer</strong><br/>
+                    <small>with I²C and SPI digital outputs</small>
+                </a>
+            </div>
+            <a href="/content/st_com/en/products/mems-and-sensors/pressure-sensors/lps33w.html?icmp=tt10664_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-medium-up show-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/21/ce/a3/a7/8e/20/4e/37/HPBN_LPS33W_EN/files/HPBN_LPS33W_EN.jpg/_jcr_content/translations/en.HPBN_LPS33W_EN.jpg" alt="with I²C and SPI digital outputs" title="Extra-robust barometer">
+            </a>
+            <a href="/content/st_com/en/products/mems-and-sensors/pressure-sensors/lps33w.html?icmp=tt10664_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-small-only hide-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/21/ce/a3/a7/8e/20/4e/37/HPBN_LPS33W_EN/files/HPBN_LPS33W_EN.jpg/_jcr_content/translations/en.HPBN_LPS33W_EN.jpg" alt="with I²C and SPI digital outputs" title="Extra-robust barometer">
+            </a>
+        </div>
+    
+        <div>
+            <div class="companion-text hide">
+                <a href="#">
+                    <strong>Meet with ST @ APEC 2019</strong><br/>
+                    <small>Booth #311</small>
+                </a>
+            </div>
+            <a href="/content/st_com/en/about/events/events.html/apec-2019.html?icmp=tt10756_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-medium-up show-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/83/2a/40/aa/8d/90/41/11/HP_APEC_2019_EN/files/HP_APEC_2019_EN.jpg/_jcr_content/translations/en.HP_APEC_2019_EN.jpg" alt="Booth #311" title="Meet with ST @ APEC 2019">
+            </a>
+            <a href="/content/st_com/en/about/events/events.html/apec-2019.html?icmp=tt10756_gl_bn_feb2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-small-only hide-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/83/2a/40/aa/8d/90/41/11/HP_APEC_2019_EN/files/HP_APEC_2019_EN.jpg/_jcr_content/translations/en.HP_APEC_2019_EN.jpg" alt="Booth #311" title="Meet with ST @ APEC 2019">
+            </a>
+        </div>
+    
+        <div>
+            <div class="companion-text hide">
+                <a href="#">
+                    <strong>1 mm thin package offers</strong><br/>
+                    <small>only 2.75 mm HV creepage</small>
+                </a>
+            </div>
+            <a href="/content/st_com/en/products/diodes-and-rectifiers/silicon-carbide-diodes/stpsc8h065dlf.html?icmp=tt9444_gl_bn_jan2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-medium-up show-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/4b/d7/2d/8f/43/e9/49/d5/HPPFLAT650V0219_EN/files/HPPFLAT650V0219_EN.jpg/_jcr_content/translations/en.HPPFLAT650V0219_EN.jpg" alt="only 2.75 mm HV creepage" title="1 mm thin package offers">
+            </a>
+            <a href="/content/st_com/en/products/diodes-and-rectifiers/silicon-carbide-diodes/stpsc8h065dlf.html?icmp=tt9444_gl_bn_jan2019" target="_self" x-cq-linkchecker="skip">
+                <img class="show-for-small-only hide-for-print" src="/content/ccc/fragment/sales_and_marketing/banner/homepage_banner/group2/4b/d7/2d/8f/43/e9/49/d5/HPPFLAT650V0219_EN/files/HPPFLAT650V0219_EN.jpg/_jcr_content/translations/en.HPPFLAT650V0219_EN.jpg" alt="only 2.75 mm HV creepage" title="1 mm thin package offers">
+            </a>
+        </div>
+    </div>
+    <div class="slider-second-nav show-for-medium-up" data-equalizer>
+    </div>
+</div>
+<script>
+    var container = $('.home-page-banner .common-slider.loading');
+    var banners = $('.home-page-banner .common-slider.loading div:not([class])');
+    var rndIndex = Math.floor(Math.random() * banners.length);
+    container.prepend(banners.get(rndIndex));
+</script>
+<div class="clearfix"></div>
+<ul id="accordion-home" class="st-accordion">
+    <li class="accordion-navigation active">
+        
+        <div class="small-12 column">
+            <div class="has-edesign large-4 columns"><a href="/content/st_com/en/about/events/upcoming-events-and-technical-seminars.html" class="right button small roboto clear-margin-bottom">All Events</a>
+<h4 class="roboto">Upcoming Events and Technical Seminars</h4>
+<div class="clearfix"></div>
+
+<div id="home-events-list" class="row">
+    
+    
+
+    
+    
+        <div class="small-12 medium-6 large-12 column ">
+            <p>
+                <a href="/content/st_com/en/about/events/events.html/stm32wb-hands-on-workshop-2018.html"><strong>STM32WB hands-on workshop</strong></a>
+                <br>
+            <span class="darkblue smaller-date">
+                
+    
+        27 Nov
+    
+ -
+                
+    
+        04 Apr, 2019
+    
+
+                
+                <span> | EMEA</span>
+                
+            </span>
+            </p>
+        </div>
+    
+        <div class="small-12 medium-6 large-12 column ">
+            <p>
+                <a href="/content/st_com/en/about/events/events.html/stm32g0-with-stm32cubemx-workshop.html"><strong>STM32G0 and STM32CubeMX 5.0 workshop series</strong></a>
+                <br>
+            <span class="darkblue smaller-date">
+                
+    
+        27 Feb
+    
+ -
+                
+    
+        29 Mar, 2019
+    
+
+                
+                <span> | US/Canada/Brazil</span>
+                
+            </span>
+            </p>
+        </div>
+    
+        <div class="small-12 medium-6 large-12 column ">
+            <p>
+                <a href="/content/st_com/en/about/events/events.html/st-technology-tour2019.html"><strong>ST Technology Tour 2019</strong></a>
+                <br>
+            <span class="darkblue smaller-date">
+                
+    
+        07 Mar
+    
+ -
+                
+    
+        03 Dec, 2019
+    
+
+                
+                
+                <span> | US/Canada</span>
+            </span>
+            </p>
+        </div>
+    
+        <div class="small-12 medium-6 large-12 column ">
+            <p>
+                <a href="/content/st_com/en/about/events/events.html/usb-type-c-with-power-delivery-workshop-2019.html"><strong>USB Type-C with Power Delivery workshop with practical hands-on exercises</strong></a>
+                <br>
+            <span class="darkblue smaller-date">
+                
+    
+        14 Mar
+    
+ -
+                
+    
+        02 Apr, 2019
+    
+
+                
+                <span> | EMEA</span>
+                
+            </span>
+            </p>
+        </div>
+    
+        <div class="small-12 medium-6 large-12 column ">
+            <p>
+                <a href="/content/st_com/en/about/events/events.html/electronica-china-2019.html"><strong>electronica China 2019</strong></a>
+                <br>
+            <span class="darkblue smaller-date">
+                
+    
+        20 Mar
+    
+ -
+                
+    
+        22 Mar, 2019
+    
+
+                <span> | Shanghai, China</span>
+                
+                
+            </span>
+            </p>
+        </div>
+    
+        <div class="small-12 medium-6 large-12 column ">
+            <p>
+                <a href="/content/st_com/en/about/events/events.html/ultrasound-pulsers-webinar-2019.html"><strong>Ultrasound pulsers for NDT and medical applications webinar</strong></a>
+                <br>
+            <span class="darkblue smaller-date">
+                
+    
+        26 Mar
+    
+ -
+                
+    
+        26 Mar, 2019
+    
+
+                
+                <span> | Online</span>
+                
+            </span>
+            </p>
+        </div>
+    
+
+</div>
+
+
+
+
+</div>
+
+            <div class="small-12 column hide-for-large-up">
+                <hr>
+            </div>
+
+            <div class="has-edesign large-4 columns"><a href="/content/st_com/en/about/media-center/press-and-news.html/page=1.html" class="right button small roboto clear-margin">All News</a>
+<h4 class="roboto">Latest News</h4>
+<div class="clearfix"></div>
+
+<ul class="home-news-list no-bullet">
+    <li>
+        <div class="row">
+            <div class="small-3 medium-2 columns">
+                <span class="la-date">
+                    
+    
+        Mar
+    
+
+                    <br>
+                    <span>
+    
+        18
+    
+</span>
+                </span>
+            </div>
+            <div class="small-9 medium-10 columns newsmedium clear-padding-left">
+                <a href="/content/st_com/en/about/media-center/press-item.html/n4147.html"><strong>Advanced IGBTs Optimized for Soft Switching Raise Induction-Heating Efficiency in Home Appliances</strong></a>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="small-3 medium-2 columns">
+                <span class="la-date">
+                    
+    
+        Mar
+    
+
+                    <br>
+                    <span>
+    
+        18
+    
+</span>
+                </span>
+            </div>
+            <div class="small-9 medium-10 columns newsmedium clear-padding-left">
+                <a href="/content/st_com/en/about/media-center/press-item.html/c2883.html"><strong>STMicroelectronics Announces Status of Common Share Repurchase Program</strong></a>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="small-3 medium-2 columns">
+                <span class="la-date">
+                    
+    
+        Mar
+    
+
+                    <br>
+                    <span>
+    
+        18
+    
+</span>
+                </span>
+            </div>
+            <div class="small-9 medium-10 columns newsmedium clear-padding-left">
+                <a href="/content/st_com/en/about/media-center/press-item.html/t4145.html"><strong>STMicroelectronics to Highlight Semiconductor Solutions for Making Everything Smarter at Electronica 2019 China</strong></a>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="small-3 medium-2 columns">
+                <span class="la-date">
+                    
+    
+        Mar
+    
+
+                    <br>
+                    <span>
+    
+        15
+    
+</span>
+                </span>
+            </div>
+            <div class="small-9 medium-10 columns newsmedium clear-padding-left">
+                <a href="/content/st_com/en/about/media-center/press-item.html/c2882.html"><strong>STMicroelectronics Hosts French &quot;Nano2022&quot; Program Launch at its Crolles Site</strong></a>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="small-3 medium-2 columns">
+                <span class="la-date">
+                    
+    
+        Mar
+    
+
+                    <br>
+                    <span>
+    
+        12
+    
+</span>
+                </span>
+            </div>
+            <div class="small-9 medium-10 columns newsmedium clear-padding-left">
+                <a href="/content/st_com/en/about/media-center/press-item.html/n4144.html"><strong>Water-Resistant MEMS Pressure Sensor from STMicroelectronics Targets Budget-Conscious Consumer and Industrial Applications</strong></a>
+            </div>
+        </div>
+    </li>
+
+    <li>
+        <div class="row">
+            <div class="small-3 medium-2 columns">
+                <span class="la-date">
+                    
+    
+        Mar
+    
+
+                    <br>
+                    <span>
+    
+        11
+    
+</span>
+                </span>
+            </div>
+            <div class="small-9 medium-10 columns newsmedium clear-padding-left">
+                <a href="/content/st_com/en/about/media-center/press-item.html/c2881.html"><strong>STMicroelectronics Announces Status of Common Share Repurchase Program</strong></a>
+            </div>
+        </div>
+    </li>
+</ul>
+
+</div>
+
+            
+                <div class="small-12 column hide-for-large-up">
+                    <hr>
+                </div>
+                <div class="large-4 column">
+                    <div class="edesign lightblue">
+                        
+    
+    <div class="row collapse">
+        <div class="large-12 columns">
+            <h2 class="close-button-container">
+    <a class="btn-close-panel right" href="#" data-dismiss="modal" aria-label="Close"><img src="/etc/clientlibs/st-site/media/app/images/icon_close.png" alt="0"></a>
+    &nbsp;
+</h2>
+<p class="titlebar">eDesignSuite</p>
+            
+    
+    <div class="row collapse">
+        <div class="small-12 medium-3 large-12 column inpage-edesign">
+            <dl class="tabs tabs-edesign-horizontal" data-tab>
+                
+                    <dd class="small-12 large-6 tab-dcdc tab-acdc">
+                        <a class="edesign" href="#edesign-panel-a-b" aria-selected="true">CONVERTER</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-led_dcdc tab-led_acdc">
+                        <a class="edesign" href="#edesign-panel-c" aria-selected="false">LED DRIVER</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-photovoltaic">
+                        <a class="edesign" href="#edesign-panel-e" aria-selected="false">PHOTOVOLTAIC</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-charger">
+                        <a class="edesign" href="#edesign-panel-f" aria-selected="false">BATT. CHARGER</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-filters">
+                        <a class="edesign" href="#edesign-panel-g" aria-selected="false">FILTERS</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-antenna">
+                        <a class="edesign" href="#edesign-panel-h" aria-selected="false">ANTENNA DESIGN</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-diodes">
+                        <a class="edesign" href="#edesign-panel-i" aria-selected="false">DIODES</a>
+                    </dd>
+                
+                
+                    <dd class="small-12 large-6 tab-diodes">
+                        <a class="edesign" href="#edesign-panel-j" aria-selected="false">ESD PROTECTION</a>
+                    </dd>
+                
+            </dl>
+        </div>
+        <div class="small-12 medium-9 large-12 column inpage-edesign">
+            <div class="tabs-content">
+                
+                    
+    <div class="content clearfix tab-dcdc tab-acdc" id="edesign-panel-a-b">
+        <form data-abide action="https://my.st.com/analogsimulator/html/index.html#/widget/param">
+            
+            <div class="boxed clearfix">
+                <p><strong>Converter</strong></p>
+                <div class="row">
+                    <div class="large-12 columns text-center">
+                        
+                            <label class="encapsulate inline">
+                                <input class="dcdc-acdc-selector" data-action-path="https://my.st.com/analogsimulator/html/index.html#/widget/param" type="radio" name="context" value="dcdc" checked>DC/DC
+                            </label>
+                        
+                        
+                            <label class="encapsulate inline">
+                                <input class="dcdc-acdc-selector" data-action-path="https://my.st.com/analogsimulator/html/index.html#/widget/param" type="radio" name="context" value="acdc">AC/DC
+                            </label>
+                        
+                    </div>
+                </div>
+                <fieldset>
+                    <legend>Input</legend>
+                    <div class="row acdc-settings hidden">
+                        <div class="large-6 columns">
+                            <script>
+                                var voltagePresets = {
+                                    '1': [''],
+                                    '2': ['.s50', '185', '265'],
+                                    '3': ['.s60', '85', '140'],
+                                    '4': ['.s50', '90', '265']
+                                };
+                            </script>
+                            <select class="use-voltage-presets less-padding">
+                                <option value="1" data-hz="" data-volt-min="" data-volt-max="" selected="selected">Voltage presets</option>
+                                <option value="2" data-hz=".s50" data-volt-min="185" data-volt-max="265">230 V - 50 Hz</option>
+                                <option value="3" data-hz=".s60" data-volt-min="85" data-volt-max="140">115 - 60 Hz</option>
+                                <option value="4" data-hz=".s50" data-volt-min="90" data-volt-max="265">Wide Range - 50 Hz</option>
+                            </select>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="encapsulate inline"><input type="radio" name="msg.data.specs.input.f" value="50" class="s50" required checked>50 Hz</label>
+                            <label class="encapsulate inline"><input type="radio" name="msg.data.specs.input.f" value="60" class="s60" required>60 Hz</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text-center">Volt. Min [V]
+                                <input id="dcdc-acdc-input-v-min" name="msg.data.specs.input.v.min" class="force-numeric" pattern="number" data-abide-validator="less_than_equal_to" data-less-than="dcdc-acdc-input-v-max" type="text" placeholder="" required/>
+                                <small class="error">This option is required. And must be less than or equal to Volt. Max [V]</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Volt. Max [V]
+                                <input id="dcdc-acdc-input-v-max" name="msg.data.specs.input.v.max" class="force-numeric" pattern="number" data-abide-validator="greater_than_equal_to" data-greater-than="dcdc-acdc-input-v-min" type="text" placeholder="" required/>
+                                <small class="error">This option is required. And must be greater than or equal to Volt. Min [V]</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div>
+                    <fieldset class="output-row-container">
+                        <legend>Output</legend>
+                        <div class="row">
+                            <div class="large-12 padding-left-15">
+                                <p class="">Output Power: <span class="output-power output-value"></span></p>
+                            </div>
+                        </div>
+                        <div class="row output-row editable-row">
+                            <div class="large-2 columns text-right">
+                                <label class="text-center">&nbsp;
+                                    <a href="#" class="add-remove-output-row block"><i class="fa fa-plus-square-o fa-lg"></i></a>
+                                </label>
+                            </div>
+                            <div class="large-5 columns">
+                                <label class="text-center">Voltage [V]
+                                    <input name="msg.data.specs.output.0.v" class="output-v force-numeric" pattern="number" type="text" placeholder="" required>
+                                    <small class="error">This option is required and must be a number.</small>
+                                </label>
+                            </div>
+                            <div class="large-5 columns last-row-item-edesign-1">
+                                <label class="text-center">Current [A]
+                                    <input name="msg.data.specs.output.0.i" class="output-i force-numeric" pattern="number" type="text" placeholder="" required>
+                                    <small class="error">This option is required and must be a number.</small>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+        <div class="output-row-template hidden">
+    <div class="row output-row editable-row">
+        <div class="large-2 columns text-right">
+            <label class="text-center">&nbsp;
+                <a href="#" class="add-remove-output-row minus block"><i class="fa fa-minus-square-o fa-lg"></i></a>
+            </label>
+        </div>
+        <div class="large-5 columns">
+            <label class="text-center">Voltage [V]
+                <input name="" class="output-v force-numeric" pattern="number" type="text" placeholder="" required>
+                <small class="error">This option is required and must be a number.</small>
+            </label>
+        </div>
+        <div class="large-5 columns last-row-item-edesign-1">
+            <label class="text-center">Current [A]
+                <input name="" class="output-i force-numeric" pattern="number" type="text" placeholder="" required>
+                <small class="error">This option is required and must be a number.</small>
+            </label>
+        </div>
+    </div>
+</div>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-led_dcdc tab-led_acdc" id="edesign-panel-c">
+        <form data-abide action="https://my.st.com/analogsimulator/html/index.html#/widget/param">
+            
+            <div class="boxed clearfix">
+                <p><strong>LED Driver</strong></p>
+                <div class="row">
+                    <div class="large-12 columns text-center">
+                        
+                            <label class="encapsulate inline">
+                                <input class="dcdc-acdc-selector" data-action-path="https://my.st.com/analogsimulator/html/index.html#/widget/param" type="radio" name="context" value="led_dcdc" checked>DC/DC
+                            </label>
+                        
+                        
+                            <label class="encapsulate inline">
+                                <input class="dcdc-acdc-selector" data-action-path="https://my.st.com/analogsimulator/html/index.html#/widget/param" type="radio" name="context" value="led_acdc">AC/DC
+                            </label>
+                        
+                    </div>
+                </div>
+                <fieldset>
+                    <legend>Input</legend>
+                    <div class="row acdc-settings hidden">
+                        <div class="large-6 columns">
+                            <script>
+                                var voltagePresets = {
+                                    '1': [''],
+                                    '2': ['.s50', '185', '265'],
+                                    '3': ['.s60', '85', '140'],
+                                    '4': ['.s50', '90', '265']
+                                };
+                            </script>
+                            <select class="use-voltage-presets less-padding">
+                                <option value="1" selected="selected">Voltage presets</option>
+                                <option value="2" data-hz=".s50" data-volt-min="185" data-volt-max="265">230 V - 50 Hz</option>
+                                <option value="3" data-hz=".s60" data-volt-min="85" data-volt-max="140">115 - 60 Hz</option>
+                                <option value="4" data-hz=".s50" data-volt-min="90" data-volt-max="265">Wide Range - 50Hz</option>
+                            </select>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="encapsulate inline"><input type="radio" name="msg.data.specs.input.f" value="50" class="s50" required checked>50 Hz</label>
+                            <label class="encapsulate inline"><input type="radio" name="msg.data.specs.input.f" value="60" class="s60" required>60 Hz</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text-center">Volt. Min [V]
+                                <input id="led-dcdc-acdc-input-v-min" name="msg.data.specs.input.v.min" class="force-numeric" pattern="number" data-abide-validator="less_than_equal_to" data-less-than="led-dcdc-acdc-input-v-max" type="text" placeholder="" required/>
+                                <small class="error">This option is required. And must be less than or equal to Volt. Max [V]</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Volt. Max [V]
+                                <input id="led-dcdc-acdc-input-v-max" name="msg.data.specs.input.v.max" class="force-numeric" pattern="number" data-abide-validator="greater_than_equal_to" data-greater-than="led-dcdc-acdc-input-v-min" type="text" placeholder="" required/>
+                                <small class="error">This option is required. And must be greater than or equal to Volt. Min [V]</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="led-total">
+                    <legend>LED custom</legend>
+                    <div class="row">
+                        <div class="large-4 columns">
+                            <label class="text-center">VF [V]
+                                <input name="msg.data.specs.led.VF" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                        <div class="large-4 columns">
+                            <label class="text-center">IF [A]
+                                <input name="msg.data.specs.led.IF" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                        <div class="large-4 columns">
+                            <label class="text-center">Rd [Ω]
+                                <input name="msg.data.specs.led.Rd" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="led-total">
+                    <div class="row">
+                        <div class="large-4 columns">
+                            LEDs
+                        </div>
+                        <div class="large-4 columns text-right">
+                            in the string:
+                        </div>
+                        <div class="large-4 columns text-right">
+                            <input name="msg.data.specs.numLed.serie" type="number" class="force-numeric" pattern="whole_positive_number" data-abide-validator="number_range" data-min-number="1" data-max-number="20" placeholder="" min="1" max="20" step="1" value="1" required/>
+                            <small class="error">This option is required. And must be a whole positive number between 1 and 20.</small>
+                        </div>
+                    </div>
+                    <div class="row dcdc-settings">
+                        <div class="large-8 columns text-right">
+                            number of strings:
+                        </div>
+                        <div class="large-4 columns text-right">
+                            <input name="msg.data.specs.numLed.parallel" type="number" class="force-numeric" pattern="whole_positive_number" data-abide-validator="number_range" data-min-number="1" data-max-number="20" placeholder="" min="1" max="20" step="1" value="1" required/>
+                            <small class="error">This option is required. And must be a whole positive number between 1 and 20.</small>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="row">
+                        <div class="large-3 columns">
+                            Output
+                        </div>
+                        <div class="large-3 columns text-right">
+                            Voltage: <span class="ledvoltage-output output-value"></span>
+                        </div>
+                        <div class="large-3 columns text-right">
+                            Current: <span class="ledcurrent-output output-value"></span>
+                        </div>
+                        <div class="large-3 columns text-right acdc-settings hidden">
+                            Power: <span class="ledpower-output output-value"></span>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-photovoltaic" id="edesign-panel-e">
+        <form data-abide action="https://my.st.com/analogsimulator">
+            
+            <input name="app" value="analogsimulator" type="hidden"/>
+            <div class="boxed clearfix">
+                <p><strong>Solar Battery Charger</strong></p>
+                <fieldset>
+                    <legend>Input Panel Specification</legend>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text-center">Vmp [V]
+                                <input name="msg.data.specs.panel.vmp" id="photov-vmp" type="text" class="force-numeric" pattern="number" data-abide-validator="less_than_equal_to" data-less-than="photov-voc" placeholder="" required/>
+                                <small class="error">This option is required. And must be less than or equal to Voc [V]</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Voc [V]
+                                <input name="msg.data.specs.panel.voc" id="photov-voc" type="text" class="force-numeric" pattern="number" data-abide-validator="greater_than_equal_to" data-greater-than="photov-vmp" placeholder="" required/>
+                                <small class="error">This option is required. And must be greater than or equal to Vmp [V]</small>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text-center">Imp [A]
+                                <input name="msg.data.specs.panel.imp" id="photov-imp" type="text" class="force-numeric" pattern="number" data-abide-validator="less_than_equal_to" data-less-than="photov-isc" placeholder="" required/>
+                                <small class="error">This option is required. And must be less than or equal to Isc [A]</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Isc [A]
+                                <input name="msg.data.specs.panel.isc" id="photov-isc" type="text" class="force-numeric" pattern="number" data-abide-validator="greater_than_equal_to" data-greater-than="photov-imp" placeholder="" required/>
+                                <small class="error">This option is required. And must be greater than or equal to Imp [A]</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Output Battery Specification</legend>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text-center">Voltage
+                                <input name="msg.data.specs.input.vout" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Current
+                                <input name="msg.data.specs.input.iout" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <input name="msg.data.specs.input.vinRipple" value="0.2" type="hidden"/>
+                <input name="msg.data.specs.input.voutRipple" value="0.1" type="hidden"/>
+                <input name="msg.data.specs.ic" value="SPV1040T" type="hidden"/>
+                <input name="msg.data.application" value="PHOTO" type="hidden"/>
+                <input name="msg.action" value="new_design" type="hidden"/>
+                <input name="source" value="selector" type="hidden"/>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-charger" id="edesign-panel-f">
+        <form data-abide action="https://my.st.com/analogsimulator/html/index.html#/widget/param">
+            <div class="boxed clearfix">
+                <p><strong>Battery Charger</strong></p>
+                
+                <input type="hidden" name="context" value="charger"/>
+                <fieldset>
+                    <legend>Input</legend>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <select class="use-voltage-presets less-padding">
+                                <option value="1" selected="selected">Voltage presets</option>
+                                <option value="2" data-hz=".s50" data-volt-min="185" data-volt-max="265">230 V - 50 Hz</option>
+                                <option value="3" data-hz=".s60" data-volt-min="85" data-volt-max="140">115 - 60 Hz</option>
+                                <option value="4" data-hz=".s50" data-volt-min="90" data-volt-max="265">Wide Range - 50 Hz</option>
+                            </select>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="encapsulate inline"><input type="radio" name="msg.data.specs.input.f" value="50" class="s50" required checked>50 Hz</label>
+                            <label class="encapsulate inline"><input type="radio" name="msg.data.specs.input.f" value="60" class="s60" required>60 Hz</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="large-6 columns">
+                            <label class="text-center">Volt. Min [V]
+                                <input id="charger-dcdc-acdc-input-v-min" name="msg.data.specs.input.v.min" class="force-numeric" pattern="number" data-abide-validator="less_than_equal_to" data-less-than="charger-dcdc-acdc-input-v-max" type="text" placeholder="" required/>
+                                <small class="error">This option is required. And must be less than or equal to Volt. Max [V]</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Volt. Max [V]
+                                <input id="charger-dcdc-acdc-input-v-max" name="msg.data.specs.input.v.max" class="force-numeric" pattern="number" data-abide-validator="greater_than_equal_to" data-greater-than="charger-dcdc-acdc-input-v-min" type="text" placeholder="" required/>
+                                <small class="error">This option is required. And must be greater than or equal to Volt. Min [V]</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+                <div>
+                    <fieldset class="output-row-container">
+                        <legend>Output</legend>
+                        <div class="row">
+                            <div class="large-12 padding-left-15">
+                                <p class="">Output Power: <span class="output-power output-value"></span></p>
+                            </div>
+                        </div>
+                        <div class="row output-row editable-row">
+                            <div class="large-2 columns text-right">
+                                <label class="text-center">&nbsp;
+                                    <a href="#" class="add-remove-output-row block"><i class="fa fa-plus-square-o fa-lg"></i></a>
+                                </label>
+                            </div>
+                            <div class="large-5 columns">
+                                <label class="text-center">Voltage [V]
+                                    <input name="msg.data.specs.output.0.v" class="output-v force-numeric" pattern="number" type="text" placeholder="" required>
+                                    <small class="error">This option is required and must be a number.</small>
+                                </label>
+                            </div>
+                            <div class="large-5 columns last-row-item-edesign-1">
+                                <label class="text-center">Current [A]
+                                    <input name="msg.data.specs.output.0.i" class="output-i force-numeric" pattern="number" type="text" placeholder="" required>
+                                    <small class="error">This option is required and must be a number.</small>
+                                </label>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+        <div class="output-row-template hidden">
+    <div class="row output-row editable-row">
+        <div class="large-2 columns text-right">
+            <label class="text-center">&nbsp;
+                <a href="#" class="add-remove-output-row minus block"><i class="fa fa-minus-square-o fa-lg"></i></a>
+            </label>
+        </div>
+        <div class="large-5 columns">
+            <label class="text-center">Voltage [V]
+                <input name="" class="output-v force-numeric" pattern="number" type="text" placeholder="" required>
+                <small class="error">This option is required and must be a number.</small>
+            </label>
+        </div>
+        <div class="large-5 columns last-row-item-edesign-1">
+            <label class="text-center">Current [A]
+                <input name="" class="output-i force-numeric" pattern="number" type="text" placeholder="" required>
+                <small class="error">This option is required and must be a number.</small>
+            </label>
+        </div>
+    </div>
+</div>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-filters" id="edesign-panel-g">
+        <form data-abide class="filters" action="https://my.st.com/analogsimulator/flex_app/bin/smps_app_filter_design.html" data-sub-action="recordParams.htm?context=antenna&">
+            
+            <input type="hidden" name="msg.action" value="new_design"/>
+            <input type="hidden" name="msg.data.application" value="filters"/>
+            <div class="boxed clearfix">
+                <p><strong>Active Analog Filter</strong></p>
+                <div class="row">
+                    <div class="large-12 columns text-center">
+                        <label class="encapsulate inline"><input class="pass-selector" type="radio" name="msg.data.specs.filterType" value="lowpass" checked>Low Pass</label>
+                        <label class="encapsulate inline"><input class="pass-selector" type="radio" name="msg.data.specs.filterType" value="highpass">High Pass</label>
+                        <label class="encapsulate inline"><input class="pass-selector" type="radio" name="msg.data.specs.filterType" value="bandpass">Band Pass</label>
+                    </div>
+                </div>
+                <fieldset>
+                    <div class="row">
+                        <div class="large-12 columns text-center">
+                            <img class="pass-selector-img select-bandpass hidden" src="/etc/clientlibs/st-site/media/app/images/band_pass.jpg" alt="">
+                            <img class="pass-selector-img select-highpass hidden" src="/etc/clientlibs/st-site/media/app/images/high_pass.jpg" alt="">
+                            <img class="pass-selector-img select-lowpass" src="/etc/clientlibs/st-site/media/app/images/low_pass.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="row selector-basic-form">
+                        <div class="large-6 columns">
+                            <label class="text-center">Cutoff Freq (Fc) [Hz]
+                                <input name="msg.data.specs.cutOffFrequency" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Gain (G0) [V/V]
+                                <input name="msg.data.specs.gain" type="text" class="force-numeric" data-abide-validator="number_range" data-min-number="1" data-max-number="1000" pattern="number" placeholder=""/>
+                                <small class="error">Please input a number from 1 to 1000.</small>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row hidden band-settings">
+                        <div class="large-12 columns">
+                            <label class="text-center">Bandwidth (BW) [Hz]
+                                <input name="msg.data.specs.passBandBandwidth" type="text" class="force-numeric not-for-urlarray" placeholder=""/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-antenna" id="edesign-panel-h">
+        <form data-abide class="antenna" action="https://my.st.com/analogsimulator/flex_app/bin/eds_antenna_design.html" data-sub-action="recordParams.htm?filters=">
+            
+            <input type="hidden" name="app" value="analogsimulator"/>
+            <input type="hidden" name="msg.action" value="new_design"/>
+            <input type="hidden" name="msg.data.application" value="antenna"/>
+            <div class="boxed clearfix">
+                <p><strong>Antenna Design</strong></p>
+                <fieldset>
+                    <div class="row">
+                        <div class="large-12 columns text-center">
+                            <img class="" src="/etc/clientlibs/st-site/media/app/images/antenna.jpg">
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Length [mm]
+                                <input name="msg.data.specs.length" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                        <div class="large-6 columns">
+                            <label class="text-center">Width [mm]
+                                <input name="msg.data.specs.width" type="text" class="force-numeric" pattern="number" placeholder="" required/>
+                                <small class="error">This option is required.</small>
+                            </label>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-diodes" id="edesign-panel-i" aria-hidden="false">
+        <form data-abide class="diodes" action="https://my.st.com/analogsimulator/flex_app/bin/eds_app_diode_selector.html" data-sub-action="recordParams.htm?filters=">
+            <div class="boxed diode clearfix">
+                <div class="text-center">
+                    <img src="/etc/clientlibs/st-site/media/app/images/icon_diode.png" height="125" width="125">
+                    Diodes (Power Schottky &amp; FERD) Smart Selector
+                </div>
+                
+                <input type="hidden" name="msg.action" value="new_design"/>
+                <input type="hidden" name="msg.data.application" value="diodeSel"/>
+                <input type="hidden" name="msg.data.specs.diodes" value="[]"/>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+    </div>
+
+                
+                
+                    
+    <div class="content clearfix tab-esd" id="edesign-panel-j" aria-hidden="false">
+        <form data-abide class="esd-protection" action="https://www.st.com/tvs-smartselector" data-sub-action="recordParams.htm?filters=">
+            
+            <div class="boxed esd clearfix">
+                <div class="text-center">
+                    <img src="/etc/clientlibs/st-site/media/app/images/icon-esd-protection.png">
+                    TVS Smart Selector
+                </div>
+            </div>
+            
+            
+    <div class="small-12 startdesign">
+        
+            <input type="hidden" name="referrerPage" value="/content/st_com/en">
+        
+        <input type="submit" class="titlebar button percent100mobile" value="Start Design"/>
+    </div>
+
+        </form>
+    </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+        </div>
+     </div>
+
+                    </div>
+                </div>
+            
+        </div>
+        <a href="#" class="text-center accordion-trigger">
+            <span class="text-closed closed">GET THE LATEST NEWS &amp; eDesignSuite&nbsp;
+                <i class="fa fa-chevron-down"></i></span>
+            <span class="text-opened opened hide">CLOSE&nbsp;<i class="fa fa-chevron-up"></i></span>
+        </a>
+    </li>
+</ul>
+            
+    <div id="menu-footer-container" class="hide-for-print">
+        <div class="row">
+            <div class="large-12 columns">
+                <ul id="menu-footer" class="small-block-grid-1 medium-block-grid-3 large-block-grid-6 small-only-text-center" data-equalizer>
+
+                    <li data-equalizer-watch>
+                        About STMicroelectronics 
+                        <ul class="no-bullet">
+                            <li>
+                                <a href="/content/st_com/en/about/st_company_information/who-we-are.html" target="_self">
+                                    Who We Are
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/st_company_information/st_executive_officers.html" target="_self">
+                                    Management
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/st_company_information/code-of-conduct.html" target="_self">
+                                    ST Code of Conduct
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://blog.st.com" target="_self">
+                                    Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+
+                    <li data-equalizer-watch>
+                        Media Center
+                        <ul class="no-bullet">
+                            <li>
+                                <a href="/content/st_com/en/about/media-center/press-and-news.html/page=1.html" target="_self">
+                                    Newsroom
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/media-center/backgrounders.html" target="_self">
+                                    Backgrounders
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/media-center/media_relations_contact.html" target="_self">
+                                    Media Contacts
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/media-center/subscribe.html" target="_self">
+                                    Media Subscription
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+
+                    <li data-equalizer-watch>
+                        Investor Relations
+                        <ul class="no-bullet">
+                            <li>
+                                <a href="https://investors.st.com/" target="_self">
+                                    Investor Relations Home
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://investors.st.com/upcoming-events" target="_self">
+                                    Calendar &amp; Presentations
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://investors.st.com/quarterly-results" target="_self">
+                                    Quarterly Results
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://investors.st.com/highlights" target="_self">
+                                    Corporate Governance
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://investors.st.com/contact-ir" target="_self">
+                                    Contact Information
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+
+                    <li data-equalizer-watch>
+                        Sustainability
+                        <ul class="no-bullet">
+                            <li>
+                                <a href="/content/st_com/en/about/st_approach_to_sustainability.html" target="_self">
+                                    ST Approach to Sustainability
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-priorities.html" target="_self">
+                                    Sustainability Priorities
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/st_approach_to_sustainability/sustainability-reports.html" target="_self">
+                                    Sustainability Reports
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://www.stfoundation.org/" target="_self">
+                                    ST Foundation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+
+                    <li data-equalizer-watch>
+                        Careers
+                        <ul class="no-bullet">
+                            <li>
+                                <a href="/content/st_com/en/about/careers/careers.html" target="_self">
+                                    Job Search
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/careers/this_is_st.html" target="_self">
+                                    Our Mission &amp; Vision
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/careers/our_culture_values.html" target="_self">
+                                    Our Culture &amp; Values
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/careers/intern_thesis.html" target="_self">
+                                    Internships/Thesis
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/content/st_com/en/about/careers/your_career.html" target="_self">
+                                    Your Career at ST
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                
+
+                    <li data-equalizer-watch>
+                        Privacy
+                        <ul class="no-bullet">
+                            <li>
+                                <a href="/content/st_com/en/common/privacy-policy.html" target="_self">
+                                    Privacy policy
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="#" class="optanon-toggle-display" target="_self">
+                                    Manage cookies
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="https://app-de.onetrust.com/app/#/webform/2b87200d-4023-4588-9df7-ab0cdea1a67e" target="_self">
+                                    Exercise your rights
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row st-footer">
+        <div class="medium-4 columns">
+            <p class="small-only-text-center footer-copyright-links">
+                <small class="text-muted">All rights reserved © 2019 STMicroelectronics </small>
+                <br>
+                <small class="hide-for-print">
+                        <a class="color-inherit" href="/content/st_com/en/common/terms-of-use.html">Terms of use</a><span> | </span>
+                
+                        <a class="color-inherit" href="/resource/en/sales_agreement/ST%20Terms%20and%20Conditions%20of%20Sales.pdf">Sales Terms &amp; Conditions</a><span> | </span>
+                
+                        <a class="color-inherit" href="/content/st_com/en/common/privacy-policy.html">Privacy Policy</a><span> | </span>
+                
+                        <a class="color-inherit" href="/content/st_com/en/contact-us.html">Contacts</a>
+                </small>
+            </p>
+            
+        </div>
+        <!--<div data-sly-include="newsletter.html" data-sly-unwrap></div>-->
+        
+    
+        <div class="medium-5 columns hide-for-print">
+            <form action="#" class="subscription-form">
+                <div class="row collapse">
+                    <div class="small-12 subscription-title">
+                        <strong title="Subscribe to  ST News &amp; Updates newsletter (monthly)">
+                            Subscribe to  ST News &amp; Updates newsletter (monthly)</strong>
+                    </div>
+                    
+                    
+                        <div class="small-10 columns">
+                            <input type="hidden" id="subscriptions" name="subscriptions" value="stmSTNews_en"/>
+                            <input type="text" id="placenewsletter" class="newsletter-input" title="Enter email to subscribe" placeholder="Enter email to subscribe"/>
+                        </div>
+                        <div class="small-2 columns">
+                            <submit id="subscription-submit" class="text-info button postfix newsletter-submit disabled" data-toggle="modal" data-target="#newsletter-subscription-validation-popup">
+                                <img src="/etc/clientlibs/st-site/media/app/images/icon_submitnewsletter.png" alt="">
+                            </submit>
+                        </div>
+                    
+                </div>
+            </form>
+        </div>
+
+        <div id="newsletter-subscription-validation-popup" class="generic-modal modal fade in gc-modal-main">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <a class="btn-close-panel right" href="#" data-dismiss="modal" aria-label="Close">x</a>
+
+            <div class="page-header clearfix gc-block">
+                <div class="left">
+                    <h1>Subscription to ST newsletters</h1>
+                </div>
+            </div>
+
+            <div class="small-12">
+                <form action="#" class="validation-form">
+                    <div class="row">
+                        <div class="small-12 medium-4 large-3 columns">
+                            <label for="validationEmail" class="left inline">
+                                Email:
+                                <span class="text-red">*</span>
+                            </label>
+                        </div>
+                        <div class="small-12 medium-8 large-6 columns left">
+                            <input type="text" name="email" id="validationEmail" class="newsletter-input"/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="small-12 columns accept-terms-data">
+                            <label for="newsletterSubscriptions" class="encapsulate">
+                                <input name="newsletterSubscriptions" id="newsletterSubscriptions" type="checkbox" class="no-margin-bottom" data-fv-notempty="false">
+                                <p><b>I want to stay informed about ST's latest news</b></p>
+
+
+<p>I consent that ST (as data controller according to the Privacy Policy) will keep a record of my navigation history and use that information as well as the personal data that I have communicated to ST for marketing purposes relevant to my interests. My personal data will be provided to ST affiliates and distributors of ST in countries located in the European Union and outside of the European Union for the same marketing purposes  <img src="/etc/clientlibs/st-site/media/app/images/read_more.png" /></p>
+
+<p>--------- <br />
+I understand that I can withdraw my consent at any time through opt-out links embedded in communication I receive or by managing my account settings. I can also exercise other user’s rights at any time as described in the Privacy Policy.</p>
+                            </label>
+                            <span class="read-more-tooltip">
+                                 <p
+    style="text-align: left;">ST will retain your browsing history and use details of the products and services that you have previously accessed, purchased or downloaded to make suggestions to you for other products and services which ST believe you will also be interested in.<br />
+<span
+      style="line-height: 14.0px;">ST uses the personal data that you provide directly to it and through your activity on ST websites in accordance with the <a href="/content/st_com/en/common/privacy-policy.html" target="_blank" rel="nofollow">Privacy Policy</a>, to send you (directly or via ST local affiliates or distributors) newsletters, advertisements or other specific and targeted marketing material about ST products and services. Your personal data will be provided to ST local affiliates and distributors in countries located in the European Union and outside of the European Union. You can consult the list of ST local affiliates and distributors in our website’s <a href="/content/st_com/en/common/privacy-policy.html" target="_blank" rel="nofollow">Privacy Policy</a>. To send you specific and targeted marketing material, the information that you provide directly to ST and/or through your activity on ST websites may also be combined with other information that ST obtains from you in another context (e.g. if you enter into a business relationship with ST, its local affiliates or distributors).</span></p>
+
+
+
+                            </span>
+                        </div>
+                        <div class="small-12 columns">
+                            <div class="accept-terms-data">
+                                <label for="termsOfUse" class="encapsulate">
+                                    <input name="termsOfUse" id="termsOfUse" type="checkbox" class="no-margin-bottom">
+                                    I have read and understood the <a href="/content/st_com/en/common/terms-of-use.html">Terms of Use</a>
+ and <a href="/content/st_com/en/common/privacy-policy.html" target="_blank">Privacy Policy</a>
+                                    <span class="text-red">*</span> <br>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <submit class="newsletter-submit right form-submit-primary disabled">
+                        Continue
+                    </submit>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+    
+        <div id="newsletter-subscription-confirmation-popup" class="generic-modal modal fade in gc-modal-main">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <a class="btn-close-panel right" href="#" data-dismiss="modal" aria-label="Close">x</a>
+
+                    <div class="page-header clearfix gc-block">
+                        <div class="left">
+                            <h1>Your newsletter subscription has been successfully submitted!</h1>
+                        </div>
+                    </div>
+
+                    <div class="small-12">
+                        <h4>To validate your subscription, please click on the link inside the email that has been sent to you. This link will be valid for 24 hours. Please check your spam filters in case you did not receive the email.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        
+    
+
+        <div class="medium-3 columns text-right hide-for-print">
+            <p class="small-only-text-center social">
+                <a href="https://www.facebook.com/STMicroelectronics.NV"><i class="fa fa-2x fa-facebook-square"></i></a>
+            
+                <a href="https://twitter.com/st_world"><i class="fa fa-2x fa-twitter-square"></i></a>
+            
+                <a href="https://www.youtube.com/user/STonlineMedia"><i class="fa fa-2x fa-youtube-square"></i></a>
+            
+                <a href="https://www.linkedin.com/company/stmicroelectronics"><i class="fa fa-2x fa-linkedin-square"></i></a>
+            
+                <a href="https://www.instagram.com/stmicroelectronics.nv/"><i class="icon-social icon-social-instagram"></i></a>
+            </p>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="videoModal" class="reveal-modal large" data-reveal="" style="opacity: 1;">
+    <h2 id="videoModalTitle"></h2>
+
+    <div class="flex-video widescreen videocontent" style="display: block;"></div>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div class="modal fade" id="genericModal" tabindex="-1" role="dialog" aria-labelledby="genericModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        </div> <!-- /.modal-content -->
+    </div> <!-- /.modal-dialog -->
+</div>
+
+
+
+    
+<script type="text/javascript" src="/etc/clientlibs/st-site.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/saveToMySt.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/st-site/components/cookiePanel.min.js"></script>
+
+
+
+</div>
+
+        <div class="cloudservice campaign"></div>
+<script type="text/javascript">try{ _satellite.pageBottom(); }catch(err){ console.warn("satellite variable is undefined, DTM script is not included"); }</script>
+
+    </body>
+</html>

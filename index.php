@@ -47,8 +47,8 @@
 			$reduction = ($weight-$weight_min)/$weight*100;
 			$reduction = ($weight_min-$weight)/$weight*100;
 			echo '<td>'.ucfirst($name).'</td>';
-			echo '<td>'.$weight.'</td>';
-			echo '<td>'.$weight_min.'</td>';
+			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_base).'/'.$name.'.html" target="_blank" title="Version non Minifiée">'.$weight.'</a></td>';
+			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_min).'/'.$name.'.html" target="_blank" title="Version Minifiée">'.$weight_min.'</a></td>';
 			echo '<td>'.round($reduction).' %</td>';
 		}
 		echo '</tr>';

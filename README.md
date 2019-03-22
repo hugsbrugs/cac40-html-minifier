@@ -1,6 +1,6 @@
 # cac40-html-minifier
 
-Visit [cac40-html-minifier](https://hugsbrugs.github.net/cac40-html-minifier) to view CAC40 HTML minification test results.
+Visit [cac40-html-minifier](https://hugsbrugs.github.io/cac40-html-minifier/) to view CAC40 HTML minification test results.
 
 ## Usage
 
