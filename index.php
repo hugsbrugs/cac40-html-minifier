@@ -4,14 +4,15 @@
 	<meta charset="utf-8">
 	<title>CAC 40 Minified Home Page Compression Test</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<meta name="description" content="Test de minification HTML des pages d'accueil des sites internet du CAC 40">
 </head>
 <body>
 <div class="container">
 	<h1 class="text-center mt-5">Test de minification HTML des pages d'accueil du CAC 40</h1>
 	<div class="jumbotron">
 		<p>J'ai téléchargé et compressé le HTML des pages d'accueil des sites web du CAC 40 pour voir si ces grandes entreprises optimisent ces ressources à l'heure des économies d'énergies.</p>
-		<p>Nous avons un groupe de tête (1 à 5%) avec Vinci, Unibail, Total, Schneider Electric, Sanofi, Publicis, Michelin, Engie, Accord Hotels et Arcelor Mittal. Pour la plupart des groupes liés à l'énergie et qui ont pris conscience qu'il était simple d'optimiser son HTML.</p>
-		<p>Vient un second groupe (5 à 15%): Vivendi, Veolia, Saint Gobain, Safran, Pernod Ricard, Groupe PSA, Crédit Agricole, Carrefour, Bouygues, Axa, Air Liquide, Airbus, Renault. Ce groupe a pris conscience de la nécessité de compresser le HTML mais sans aller jusqu'au bout du processus.</p>
+		<p>Nous avons un groupe de tête (1 à 5%) avec Vinci, Véolia, Unibail, Total, Schneider Electric, Michelin, Engie et Accord Hotels. Pour la plupart des groupes liés à l'énergie et qui ont pris conscience qu'il était simple d'optimiser son HTML.</p>
+		<p>Vient un second groupe (6 à 15%): Vivendi, Sanofi, Saint Gobain, Safran, Renault, Groupe PSA, Dassault, Carrefour, Cap Gemini, Bouygues, Axa, Arcelor Mittal et Air Liquide. Ce groupe a pris conscience de la nécessité de compresser le HTML mais sans aller jusqu'au bout du processus.</p>
 		<p>Puis un dernier groupe qui n'a pas pris conscience que ça serait bon pour eux et pour l'environnement de compresser leur HTML !</p>
 		<p>Et vous compressez-vous votre code ?</p>
 		<p class="text-center">
@@ -19,8 +20,9 @@
 		</p>
 	</div>
 
-	<p>Voir le code et le script de minification sur github</p>
+	<p>Voir le code et le script de minification sur <a href="https://github.com/hugsbrugs/cac40-html-minifier" title="Projet sur Github">github</a></p>
 	<p>Résultats du test (22/03/2019)</p>
+	<p>Cliquer sur les liens pour voir les versions compressées et non compressées (seul le HTML est compressé dans ce test, pas le Javascript)</p>
 	<table class="table table-bordered">
 		<thead>
 			<tr>
