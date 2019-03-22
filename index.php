@@ -22,17 +22,19 @@
 
 	<p>Voir le code et le script de minification sur <a href="https://github.com/hugsbrugs/cac40-html-minifier" title="Projet sur Github">github</a></p>
 	<p>Résultats du test (22/03/2019)</p>
-	<p>Cliquer sur les liens pour voir les versions compressées et non compressées (seul le HTML est compressé dans ce test, pas le Javascript)</p>
+	<p>Cliquer sur les poids des pages pour voir les versions compressées et non compressées (seul le HTML est compressé dans ce test, pas le Javascript)</p>
 	<table class="table table-bordered">
 		<thead>
 			<tr>
-				<th>Company</th>
-				<th>Home Page Size</th>
-				<th>Home Page Size Min</th>
-				<th>Reduction</th>
+				<th>Entreprise</th>
+				<th>Poids Home Page</th>
+				<th>Poids Home Page Minifiée</th>
+				<th>Réduction Possible</th>
 			</tr>
 		</thead>
 	<?php
+	$companies = json_decode(file_get_contents(__DIR__.'/cac40.json'));
+
 	// $dir_base = __DIR__ . '/html/';
 	// $dir_min = __DIR__ . '/html-min/';
 	$dir_base = __DIR__ . '/html-2019-03-22/';
@@ -48,7 +50,7 @@
 			$weight_min = filesize($dir_min.$file);
 			$reduction = ($weight-$weight_min)/$weight*100;
 			$reduction = ($weight_min-$weight)/$weight*100;
-			echo '<td>'.ucfirst($name).'</td>';
+			echo '<td><a href="'.$companies->$name.'" target="_blank" rel="nofollow" title="Page d\'accueil '.$name.'">'.ucfirst($name).'</a></td>';
 			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_base).'/'.$name.'.html" target="_blank" title="Version non Minifiée">'.$weight.'</a></td>';
 			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_min).'/'.$name.'.html" target="_blank" title="Version Minifiée">'.$weight_min.'</a></td>';
 			echo '<td>'.round($reduction).' %</td>';
@@ -73,7 +75,7 @@
 	
 	<h2>Les outils de test</h2>
 
-	<p>Testez la rapidité de votre site web avec l'outil <a href="https://developers.google.com/speed/pagespeed/insights/?hl=fr" target="_blank" title="Page Speed Insights">Google Page Speed Insights</a></p>
+	<p>Testez la rapidité de votre site web avec <a href="https://developers.google.com/speed/pagespeed/insights/?hl=fr" target="_blank" title="Page Speed Insights">Google Page Speed Insights</a></p>
 
 	<p>Vous utilisez Wordpress ? Essayez le plugin <a href="https://fr.wordpress.org/plugins/minify-html-markup/#description" target="_blank" title="Plugin Wordpress minify-html-markup">minify-html-markup</a></p>
 
