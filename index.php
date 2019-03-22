@@ -5,6 +5,16 @@
 	<title>CAC 40 Minified Home Page Compression Test</title>
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta name="description" content="Test de minification HTML des pages d'accueil des sites internet du CAC 40">
+	<!-- Open Graph -->
+    <meta property="og:title" content="Et vous ? Vous minifiez votre HTML ?" />
+    <meta property="og:description" content="Test de minification HTML des pages d'accueil des sites internet du CAC 40" />
+    <meta property="og:image" content="https://hugsbrugs.github.io/cac40-html-minifier/compress.jpg" />
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="667">
+	<meta property="og:url" content="https://hugsbrugs.github.io/cac40-html-minifier/">
+	<meta property="og:site_name" content="Test CAC 40 HTML Minification" />
+	<meta property="og:type" content="article" />
+	<meta property="og:locale" content="fr_FR" />
 </head>
 <body>
 <div class="container">
