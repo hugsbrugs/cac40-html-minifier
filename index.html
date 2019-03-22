@@ -9,8 +9,8 @@
     <meta property="og:title" content="Et vous ? Vous minifiez votre HTML ?" />
     <meta property="og:description" content="Test de minification HTML des pages d'accueil des sites internet du CAC 40" />
     <meta property="og:image" content="https://hugsbrugs.github.io/cac40-html-minifier/compress.jpg" />
-	<meta property="og:image:width" content="1000">
-	<meta property="og:image:height" content="667">
+	<meta property="og:image:width" content="1024">
+	<meta property="og:image:height" content="768">
 	<meta property="og:url" content="https://hugsbrugs.github.io/cac40-html-minifier/">
 	<meta property="og:site_name" content="Test CAC 40 HTML Minification" />
 	<meta property="og:type" content="article" />
