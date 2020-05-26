@@ -17,8 +17,13 @@ var merge = require('merge-stream');
 
 // var source = __dirname + '/html/';
 // var output = __dirname + '/html-min/';
-var source = __dirname + '/html-2019-03-22/';
-var output = __dirname + '/html-2019-03-22-min/';
+
+// var source = __dirname + '/html-2019-03-22/';
+// var output = __dirname + '/html-2019-03-22-min/';
+
+var source = __dirname + '/html-2020-05-26/';
+var output = __dirname + '/html-2020-05-26-min/';
+
 var paths = [];
 
 // Dockblock
@@ -32,7 +37,10 @@ gulp.task('usemin', function() {
         //inlinecss:[ function(){ return cleanCss(); }, 'concat'],
         html: [ function(){ return htmlmin({
             collapseWhitespace: true,
-            removeComments: true
+            removeComments: true,
+            minifyCSS: true,
+            minifyJS: true,
+            removeAttributeQuotes:true
         }); } ],
         //js: [ function(){ return uglify();} ], // rev(), 
         //inlinejs: [ function(){ return uglify();} ]

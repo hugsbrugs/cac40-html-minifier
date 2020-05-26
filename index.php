@@ -31,39 +31,68 @@
 	</div>
 
 	<p>Voir le code et le script de minification sur <a href="https://github.com/hugsbrugs/cac40-html-minifier" title="Projet sur Github">github</a></p>
-	<p>Résultats du test (22/03/2019)</p>
-	<p>Cliquer sur les poids des pages pour voir les versions compressées et non compressées (seul le HTML est compressé dans ce test, pas le Javascript)</p>
+	<p>Cliquer sur les poids des pages pour voir les versions compressées et non compressées (en 2019 seul le HTML était compressé dans ce test. En 2020 le Javascript et le CSS contenus directement dans la page sont aussi compressés mais pas les fichiers externes).</p>
 	<table class="table table-bordered">
 		<thead>
 			<tr>
 				<th>Entreprise</th>
-				<th>Poids Home Page</th>
-				<th>Poids Home Page Minifiée</th>
-				<th>Réduction Possible</th>
+				<th>Poids Home Page<br>22-03-2019</th>
+				<th>Poids Home Page Minifiée<br>22-03-2019</th>
+				<th>Réduction Possible<br>22-03-2019</th>
+				<th>Poids Home Page<br>26-05-2020</th>
+				<th>Poids Home Page Minifiée<br>26-05-2020</th>
+				<th>Réduction Possible<br>26-05-2020</th>
 			</tr>
 		</thead>
 	<?php
+
+	function human_filesize($size, $precision = 2) {
+	    $units = array('B','kB','MB','GB','TB','PB','EB','ZB','YB');
+	    $step = 1024;
+	    $i = 0;
+	    while (($size / $step) > 0.9) {
+	        $size = $size / $step;
+	        $i++;
+	    }
+	    return round($size, $precision).$units[$i];
+	}
+
 	$companies = json_decode(file_get_contents(__DIR__.'/cac40.json'));
 
 	// $dir_base = __DIR__ . '/html/';
 	// $dir_min = __DIR__ . '/html-min/';
-	$dir_base = __DIR__ . '/html-2019-03-22/';
-	$dir_min = __DIR__ . '/html-2019-03-22-min/';
-	$files = scandir($dir_base);
+	$dir_base_1 = __DIR__ . '/html-2019-03-22/';
+	$dir_min_1 = __DIR__ . '/html-2019-03-22-min/';
+	$dir_base_2 = __DIR__ . '/html-2020-05-26/';
+	$dir_min_2 = __DIR__ . '/html-2020-05-26-min/';
+	$files = scandir($dir_base_1);
 	foreach ($files as $key => $file)
 	{
 		echo '<tr>';
 		if($file!=='.' && $file!=='..')
 		{
 			$name = str_replace(['www.','.com','.html'], ['','',''], $file);
-			$weight = filesize($dir_base.$file);
-			$weight_min = filesize($dir_min.$file);
-			$reduction = ($weight-$weight_min)/$weight*100;
-			$reduction = ($weight_min-$weight)/$weight*100;
+			# 2019
+			$weight_1 = filesize($dir_base_1.$file);
+			$weight_min_1 = filesize($dir_min_1.$file);
+			$reduction_1 = ($weight_min_1-$weight_1)/$weight_1*100;
+			# 2020
+			$weight_2 = filesize($dir_base_2.$file);
+			$weight_2_1 = round(($weight_2-$weight_1)/$weight_1*100);
+			$weight_min_2 = filesize($dir_min_2.$file);
+			$reduction_2 = ($weight_min_2-$weight_2)/$weight_2*100;
+
 			echo '<td><a href="'.$companies->$name.'" target="_blank" rel="nofollow" title="Page d\'accueil '.$name.'">'.ucfirst($name).'</a></td>';
-			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_base).'/'.$name.'.html" target="_blank" title="Version non Minifiée">'.$weight.'</a></td>';
-			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_min).'/'.$name.'.html" target="_blank" title="Version Minifiée">'.$weight_min.'</a></td>';
-			echo '<td>'.round($reduction).' %</td>';
+			
+			# 2019
+			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_base_1).'/'.$name.'.html" target="_blank" title="Version non Minifiée">'.human_filesize($weight_1).'</a></td>';
+			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_min_1).'/'.$name.'.html" target="_blank" title="Version Minifiée">'.human_filesize($weight_min_1).'</a></td>';
+			echo '<td>'.round($reduction_1).' %</td>';
+
+			# 2020
+			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_base_2).'/'.$name.'.html" target="_blank" title="Version non Minifiée">'.human_filesize($weight_2).'</a><br>'.$weight_2_1.' % / 2019</td>';
+			echo '<td><a href="https://github.com/hugsbrugs/cac40-html-minifier/blob/master/'.basename($dir_min_2).'/'.$name.'.html" target="_blank" title="Version Minifiée">'.human_filesize($weight_min_2).'</a></td>';
+			echo '<td>'.round($reduction_2).' %</td>';
 		}
 		echo '</tr>';
 	}
